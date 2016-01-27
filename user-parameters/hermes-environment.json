@@ -1,0 +1,11 @@
+{
+    "Albedo": 0.23,
+    "AtmosphericCO2": 0,
+    "LeachingDepth": 1.6,
+    "MaxGroundwaterDepth": 18,
+    "MinGroundwaterDepth": 20,
+    "MinGroundwaterDepthMonth": 3,
+    "WindSpeedHeight": 2,
+    "timeStep": 1,
+    "type": "UserEnvironmentParameters"
+}

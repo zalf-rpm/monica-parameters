@@ -1,0 +1,228 @@
+{
+	"metadata": {
+		"description": "used for MACSUR European heat stress study. StageTemperatureSum, BeginSensitivePhaseHeatStress, EndSensitivePhaseHeatStress and HeatSumIrrigationEnd were changed for each cell",
+		"parameter version": 1,
+		"model version": 2.1
+	},
+	"AssimilatePartitioningCoeff": [
+		[
+			0.6,
+			0.4,
+			0,
+			0
+		],
+		[
+			0.55,
+			0.25,
+			0.2,
+			0
+		],
+		[
+			0.2,
+			0.2,
+			0.6,
+			0
+		],
+		[
+			0.05,
+			0.05,
+			0.65,
+			0.25
+		],
+		[
+			0,
+			0,
+			0,
+			1
+		],
+		[
+			0,
+			0,
+			0,
+			1
+		],
+		[
+			0,
+			0,
+			0,
+			1
+		]
+	],
+	"BaseDaylength": [
+		[
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"h"
+	],
+	"BeginSensitivePhaseHeatStress": [
+		690,
+		"°C d"
+	],
+	"CriticalTemperatureHeatStress": [
+		35,
+		"°C"
+	],
+	"CropHeightP1": 9,
+	"CropHeightP2": 0.3499999940395355,
+	"CropSpecificMaxRootingDepth": 1.399999976158142,
+	"CultivarName": "grain maize",
+	"DaylengthRequirement": [
+		[
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"h"
+	],
+	"Description": "",
+	"DroughtStressThreshold": [
+		0.5,
+		0.5,
+		0.5,
+		0.5,
+		0.6,
+		0.6,
+		0.2
+	],
+	"EndSensitivePhaseHeatStress": [
+		770,
+		"°C d"
+	],
+	"FrostDehardening": 0,
+	"FrostHardening": 0,
+	"HeatSumIrrigationEnd": 1324,
+	"HeatSumIrrigationStart": 1,
+	"LT50cultivar": 0,
+	"LatestHarvestDoy": -1,
+	"LowTemperatureExposure": 0,
+	"MaxAssimilationRate": 60,
+	"MaxCropHeight": [
+		2,
+		"m"
+	],
+	"OptimumTemperature": [
+		[
+			30,
+			30,
+			30,
+			30,
+			30,
+			30,
+			30
+		],
+		"°C"
+	],
+	"OrganIdsForCutting": [],
+	"OrganIdsForPrimaryYield": [
+		{
+			"organId": 4,
+			"type": "YieldComponent",
+			"yieldDryMatter": 0.86,
+			"yieldPercentage": 0.78
+		}
+	],
+	"OrganIdsForSecondaryYield": [],
+	"OrganSenescenceRate": [
+		[
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0.005,
+			0.001,
+			0,
+			0
+		],
+		[
+			0.1,
+			0.003,
+			0,
+			0
+		],
+		[
+			0.1,
+			0.005,
+			0.013,
+			0
+		],
+		[
+			0,
+			0.02,
+			0.02,
+			0
+		]
+	],
+	"Perennial": false,
+	"ResidueNRatio": 0.5,
+	"RespiratoryStress": 0,
+	"SpecificLeafArea": [
+		[
+			0.0028,
+			0.002,
+			0.002,
+			0.0019,
+			0.0018,
+			0.0018,
+			0.0018
+		],
+		"ha kg-1"
+	],
+	"StageKcFactor": [
+		[
+			0.4,
+			1,
+			1,
+			1.2,
+			1.25,
+			1.25,
+			1
+		],
+		"1;0"
+	],
+	"StageTemperatureSum": [
+		[
+			68,
+			284,
+			190,
+			250,
+			200,
+			400,
+			25
+		],
+		"°C d"
+	],
+	"VernalisationRequirement": [
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	],
+	"type": "CultivarParameters"
+}

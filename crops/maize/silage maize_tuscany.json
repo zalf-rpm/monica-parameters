@@ -1,13 +1,13 @@
 {
 	"metadata": {
-		"description": "calibrated for MACSUR climate change scaling exercise for Tuscany (IT)",
-		"parameter version": 1,
+		"description": "calibrated for MACSUR climate change scaling exercise for Tuscany (IT).",
+		"parameter version": 3,
 		"model version": 2.1
 	},
 	"AssimilatePartitioningCoeff": [
 		[
-			0.75,
-			0.25,
+			0.7,
+			0.3,
 			0,
 			0
 		],
@@ -61,7 +61,7 @@
 		"h"
 	],
 	"BeginSensitivePhaseHeatStress": [
-		1898,
+		1493,
 		"�C d"
 	],
 	"CriticalTemperatureHeatStress": [
@@ -95,7 +95,7 @@
 		0.2
 	],
 	"EndSensitivePhaseHeatStress": [
-		2177,
+		1758,
 		"�C d"
 	],
 	"FrostDehardening": 5.050000190734863,
@@ -123,7 +123,7 @@
 		"�C"
 	],
 	"OrganIdsForCutting": [],
-	"OrganIdsForPrimaryYield": [
+	"OrganIdsForPrimaryYield": [		
 		{
 			"organId": 2,
 			"type": "YieldComponent",
@@ -218,11 +218,11 @@
 	"StageTemperatureSum": [
 		[
 			68,
-			1217,
-			354,
-			406,
+			959,
+			279,
+			320,
 			200,
-			714,
+			512,
 			25
 		],
 		"�C d"

@@ -1,7 +1,7 @@
 {
 	"metadata": {
-		"description": "calibrated for MACSUR climate change scaling exercise for Tuscany (IT)",
-		"parameter version": 3,
+		"description": "calibrated for MACSUR climate change scaling exercise for North Rhine-Westphalia (DE). Straw is removed",
+		"parameter version": 2,
 		"model version": 2.1
 	},
 	"AssimilatePartitioningCoeff": [
@@ -54,7 +54,7 @@
 		"h"
 	],
 	"BeginSensitivePhaseHeatStress": [
-		520,
+		639,
 		"°C d"
 	],
 	"CriticalTemperatureHeatStress": [
@@ -63,7 +63,7 @@
 	],
 	"CropHeightP1": 6,
 	"CropHeightP2": 0.5,
-	"CropSpecificMaxRootingDepth": 0.4,
+	"CropSpecificMaxRootingDepth": 1.3,
 	"CultivarName": "winter wheat",
 	"DaylengthRequirement": [
 		[
@@ -86,7 +86,7 @@
 		0.8
 	],
 	"EndSensitivePhaseHeatStress": [
-		739,
+		866,
 		"°C d"
 	],
 	"FrostDehardening": 5.050000190734863,
@@ -201,10 +201,10 @@
 	"StageTemperatureSum": [
 		[
 			148,
-			239,
-			320,
+			293,
+			393,
 			180,
-			353,
+			434,
 			25
 		],
 		"°C d"

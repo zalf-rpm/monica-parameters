@@ -1,7 +1,7 @@
 {
 	"metadata": {
-		"description": "calibrated for MACSUR climate change scaling exercise for Tuscany (IT).",
-		"parameter version": 3,
+		"description": "calibrated for MACSUR climate change scaling exercise for Tuscany (IT)",
+		"parameter version": 4,
 		"model version": 2.1
 	},
 	"AssimilatePartitioningCoeff": [
@@ -105,7 +105,7 @@
 	"LT50cultivar": -1,
 	"LatestHarvestDoy": -1,
 	"LowTemperatureExposure": 0.6539999842643738,
-	"MaxAssimilationRate": 50,
+	"MaxAssimilationRate": 60,
 	"MaxCropHeight": [
 		2,
 		"m"

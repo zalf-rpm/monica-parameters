@@ -1,8 +1,14 @@
 {
+	"id": "wheat_EU_1980-2010_Pheno",
 	"metadata": {
 		"description": "used for MACSUR European heat stress study",
 		"parameter version": 1,
-		"model version": 2.1
+		"model version": 2.1,
+		"calibration": {
+			"location": "Europe",
+			"timeframe": "1980-2010",
+			"variables": "anthesis, maturity"
+		}
 	},
 	"AbovegroundOrgan": [
 		false,

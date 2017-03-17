@@ -1,1 +1,27 @@
-{"CorrectionRain": 1, "CorrectionSnow": 1.1399999856948853, "CriticalMoistureDepth": 0, "EvaporationZeta": 40, "GroundwaterDischarge": 3, "HydraulicConductivityRedux": 0.10000000149011612, "KcFactor": 0.60000002384185791, "MaxPercolationRate": 8, "MaximumEvaporationImpactDepth": 5, "MoistureInitValue": 0, "NewSnowDensityMin": 0.10000000149011612, "RefreezeParameter1": 1.5, "RefreezeParameter2": 0.36000001430511475, "RefreezeTemperature": -1.7000000476837158, "SaturatedHydraulicConductivity": 8640, "SnowAccumulationTresholdTemperature": 1.7999999523162842, "SnowMaxAdditionalDensity": 0.25, "SnowMeltTemperature": 0.31000000238418579, "SnowPacking": 0.0099999997764825821, "SnowRetentionCapacityMax": 0.17000000178813934, "SnowRetentionCapacityMin": 0.05000000074505806, "SurfaceRoughness": 0.019999999552965164, "TemperatureLimitForLiquidWater": -3, "XSACriticalSoilMoisture": 0.10000000149011612, "type": "UserSoilMoistureParameters"}
+{  
+  "CorrectionRain":1,
+  "CorrectionSnow":1.1399999856948853,
+  "CriticalMoistureDepth":0,
+  "EvaporationZeta":40,
+  "GroundwaterDischarge":3,
+  "HydraulicConductivityRedux":0.10000000149011612,
+  "KcFactor":0.60000002384185791,
+  "MaxPercolationRate":8,
+  "MaximumEvaporationImpactDepth":5,
+  "MoistureInitValue":0,
+  "NewSnowDensityMin":0.10000000149011612,
+  "RefreezeParameter1":1.5,
+  "RefreezeParameter2":0.36000001430511475,
+  "RefreezeTemperature":-1.7000000476837158,
+  "SaturatedHydraulicConductivity":8640,
+  "SnowAccumulationTresholdTemperature":1.7999999523162842,
+  "SnowMaxAdditionalDensity":0.25,
+  "SnowMeltTemperature":0.31000000238418579,
+  "SnowPacking":0.0099999997764825821,
+  "SnowRetentionCapacityMax":0.17000000178813934,
+  "SnowRetentionCapacityMin":0.05000000074505806,
+  "SurfaceRoughness":0.019999999552965164,
+  "TemperatureLimitForLiquidWater":-3,
+  "XSACriticalSoilMoisture":0.10000000149011612,
+  "type":"UserSoilMoistureParameters"
+}

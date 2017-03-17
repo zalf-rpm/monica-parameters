@@ -1,1 +1,7 @@
-{"AD": 0.0020000000949949026, "DiffusionCoefficientStandard": 0.00021399999968707561, "DispersionLength": 0.048999998718500137, "NDeposition": 0, "type": "UserSoilTransportParameters"}
+{  
+  "AD":0.0020000000949949026,
+  "DiffusionCoefficientStandard":0.00021399999968707561,
+  "DispersionLength":0.048999998718500137,
+  "NDeposition":0,
+  "type":"UserSoilTransportParameters"
+}

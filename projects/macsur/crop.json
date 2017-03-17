@@ -1,1 +1,18 @@
-{"CanopyReflectionCoefficient": 0.079999998211860657, "GrowthRespirationParameter1": 0.10000000149011612, "GrowthRespirationParameter2": 38, "GrowthRespirationRedux": 0.69999998807907104, "MaintenanceRespirationParameter1": 0.079999998211860657, "MaintenanceRespirationParameter2": 44, "MaxCropNDemand": 6, "MinimumAvailableN": 0.00075000000651925802, "MinimumNConcentrationRoot": 0.004999999888241291, "ReferenceAlbedo": 0.23000000417232513, "ReferenceLeafAreaIndex": 1.440000057220459, "ReferenceMaxAssimilationRate": 30, "SaturationBeta": 2.5, "StomataConductanceAlpha": 40, "Tortuosity": 0.0020000000949949026, "type": "UserCropParameters"}
+{  
+  "CanopyReflectionCoefficient":0.079999998211860657,
+  "GrowthRespirationParameter1":0.10000000149011612,
+  "GrowthRespirationParameter2":38,
+  "GrowthRespirationRedux":0.69999998807907104,
+  "MaintenanceRespirationParameter1":0.079999998211860657,
+  "MaintenanceRespirationParameter2":44,
+  "MaxCropNDemand":6,
+  "MinimumAvailableN":0.00075000000651925802,
+  "MinimumNConcentrationRoot":0.004999999888241291,
+  "ReferenceAlbedo":0.23000000417232513,
+  "ReferenceLeafAreaIndex":1.440000057220459,
+  "ReferenceMaxAssimilationRate":30,
+  "SaturationBeta":2.5,
+  "StomataConductanceAlpha":40,
+  "Tortuosity":0.0020000000949949026,
+  "type":"UserCropParameters"
+}

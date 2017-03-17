@@ -1,4 +1,5 @@
 {
+	"CultivarName": "winter rape",
 	"metadata": {
 		"description": "Calibrated for MACSUR crop rotation exercise for Czech Republic",
 		"parameter version": 1,
@@ -62,9 +63,9 @@
 		"°C"
 	],
 	"CropHeightP1": 9,
-	"CropHeightP2": 0.3499999940395355,
+	"CropHeightP2": 0.35,
 	"CropSpecificMaxRootingDepth": 1.5,
-	"CultivarName": "winter rape",
+	
 	"DaylengthRequirement": [
 		[
 			0,
@@ -78,29 +79,26 @@
 	],
 	"Description": "",
 	"DroughtStressThreshold": [
-		1,
-		1,
-		1,
-		1,
-		1,
-		1
+		0.8,
+		0.8,
+		0.8,
+		0.8,
+		0.8,
+		0.8
 	],
 	"EndSensitivePhaseHeatStress": [
 		0,
 		"°C d"
 	],
-	"FrostDehardening": 5.050000190734863,
-	"FrostHardening": 0.014000000432133675,
+	"FrostDehardening": 5.05,
+	"FrostHardening": 0.014,
 	"HeatSumIrrigationEnd": 1000,
 	"HeatSumIrrigationStart": 450,
 	"LT50cultivar": -18,
 	"LatestHarvestDoy": -1,
-	"LowTemperatureExposure": 0.6539999842643738,
+	"LowTemperatureExposure": 0.654,
 	"MaxAssimilationRate": 28,
-	"MaxCropHeight": [
-		0.800000011920929,
-		"m"
-	],
+	"MaxCropHeight": [0.8, "m"],
 	"OptimumTemperature": [
 		[
 			30,
@@ -174,8 +172,8 @@
 		]
 	],
 	"Perennial": false,
-	"ResidueNRatio": 0.30000001192092896,
-	"RespiratoryStress": 0.5400000214576721,
+	"ResidueNRatio": 0.3,
+	"RespiratoryStress": 0.54,
 	"SpecificLeafArea": [
 		[
 			0.002,

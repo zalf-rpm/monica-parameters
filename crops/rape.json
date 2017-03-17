@@ -1,5 +1,6 @@
 {
-    "metadata": {
+	"SpeciesName": "rape",
+	"metadata": {
 		"description": "Calibrated for MACSUR crop rotation exercise for Czech Republic",
 		"parameter version": 1,
 		"model version": 2.1
@@ -10,7 +11,7 @@
 		true,
 		true
 	],
-	"AssimilateReallocation": 0.30000001192092896,
+	"AssimilateReallocation": 0.3,
 	"BaseTemperature": [
 		0,
 		1,
@@ -33,27 +34,27 @@
 	"DevelopmentAccelerationByNitrogenStress": 0,
 	"DroughtImpactOnFertilityFactor": 0,
 	"FieldConditionModifier": 1,
-	"InitialKcFactor": 0.4000000059604645,
+	"InitialKcFactor": 0.4,
 	"InitialOrganBiomass": [
 		53,
 		53,
 		0,
 		0
 	],
-	"InitialRootingDepth": 0.10000000149011612,
+	"InitialRootingDepth": 0.1,
 	"LimitingTemperatureHeatStress": 40,
-	"LuxuryNCoeff": 1.100000023841858,
-	"MaxCropDiameter": 0.006000000052154064,
-	"MaxNUptakeParam": 3.1449999809265137,
-	"MinimumNConcentration": 0.004999999888241291,
-	"MinimumTemperatureForAssimilation": 1,
+	"LuxuryNCoeff": 1.1,
+	"MaxCropDiameter": 0.006,
+	"MaxNUptakeParam": 3.145,
+	"MinimumNConcentration": 0.005,
+	"MinimumTemperatureForAssimilation": 4,
 	"OptimumTemperatureForAssimilation": 26,
 	"MaximumTemperatureForAssimilation": 35,
 	"MinimumTemperatureRootGrowth": 0,
-	"NConcentrationAbovegroundBiomass": 0.05999999865889549,
+	"NConcentrationAbovegroundBiomass": 0.06,
 	"NConcentrationB0": 3.5,
-	"NConcentrationPN": 1.350000023841858,
-	"NConcentrationRoot": 0.019999999552965164,
+	"NConcentrationPN": 1.35,
+	"NConcentrationRoot": 0.02,
 	"OrganGrowthRespiration": [
 		0.28,
 		0.28,
@@ -61,19 +62,19 @@
 		0.55
 	],
 	"OrganMaintenanceRespiration": [
+		0.01,
 		0.03,
-		0.03,
-		0.03,
-		0.015
+		0.015,
+		0.01
 	],
 	"PartBiologicalNFixation": 0,
 	"PlantDensity": 100,
-	"RootDistributionParam": 0.00278700003400445,
+	"RootDistributionParam": 0.002787,
 	"RootFormFactor": 1.5,
 	"RootGrowthLag": -30,
-	"RootPenetrationRate": 0.0020000000949949026,
-	"SamplingDepth": 0.6000000238418579,
-	"SpeciesName": "rape",
+	"RootPenetrationRate": 0.002,
+	"SamplingDepth": 0.6,
+	
 	"SpecificRootLength": 300,
 	"StageAfterCut": 0,
 	"StageAtMaxDiameter": 2,

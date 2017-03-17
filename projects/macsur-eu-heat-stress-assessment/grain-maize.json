@@ -2,7 +2,12 @@
 	"metadata": {
 		"description": "used for MACSUR European heat stress study. StageTemperatureSum, BeginSensitivePhaseHeatStress, EndSensitivePhaseHeatStress and HeatSumIrrigationEnd were changed for each cell",
 		"parameter version": 1,
-		"model version": 2.1
+		"model version": 2.1,
+		"calibration":{
+			"location": "Europe",
+			"timeframe": "1980-2010",
+			"variables": "anthesis, maturity"
+		}
 	},
 	"AssimilatePartitioningCoeff": [
 		[

@@ -2,7 +2,12 @@
 	"metadata": {
 		"description": "calibrated for MACSUR climate change scaling exercise for Tuscany (IT)",
 		"parameter version": 2,
-		"model version": 2.1
+		"model version": 2.1,
+		"calibration":{
+			"location": "Tuscany, Italy",
+			"timeframe": "1980-2010",
+			"variables": "anthesis, maturity"
+		}
 	},
 	"AbovegroundOrgan": [
 		false,

@@ -4,14 +4,18 @@
     "kg DM kg FM-1",
     "Dry matter content of added organic matter"
   ],
-  "AOM_FastDecCoeffStandard":[  ],
+  "AOM_FastDecCoeffStandard":[  
+    0.05000000074505806,
+    "d-1",
+    "Decomposition rate coefficient of fast AOM at standard conditions"
+  ],
   "AOM_NH4Content":[  
     0,
     "kg N kg DM-1",
     "Ammonium content in added organic matter"
   ],
   "AOM_NO3Content":[  
-    0.0099999997764825821,
+    0.0010000000474974513,
     "kg N kg DM-1",
     "Nitrate content in added organic matter"
   ],
@@ -26,7 +30,7 @@
     "C to N ratio of the rapidly decomposing AOM pool"
   ],
   "CN_Ratio_AOM_Slow":[  
-    13.100000381469727,
+    47.700000762939453,
     "",
     "C to N ratio of the slowly decomposing AOM pool"
   ],
@@ -42,16 +46,16 @@
     "Part of AOM slow consumed by slow soil microbial biomass"
   ],
   "PartAOM_to_AOM_Fast":[  
-    0.76999998092651367,
+    0.62000000476837158,
     "kg kg-1",
     "Part of AOM that is assigned to the rapidly decomposing pool"
   ],
   "PartAOM_to_AOM_Slow":[  
-    0.23000000417232513,
+    0.37999999523162842,
     "kg kg-1",
     "Part of AOM that is assigned to the slowly decomposing pool"
   ],
   "residueType":"",
-  "species":"endive",
+  "species":"bell - sweet pepper",
   "type":"CropResidueParameters"
 }

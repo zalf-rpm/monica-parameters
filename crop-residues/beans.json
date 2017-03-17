@@ -4,7 +4,11 @@
     "kg DM kg FM-1",
     "Dry matter content of added organic matter"
   ],
-  "AOM_FastDecCoeffStandard":[  ],
+  "AOM_FastDecCoeffStandard":[
+    0.05000000074505806,
+    "d-1",
+    "Decomposition rate coefficient of fast AOM at standard conditions"
+  ],
   "AOM_NH4Content":[  
     0,
     "kg N kg DM-1",

@@ -6,7 +6,7 @@
     true
   ],
   "AssimilateReallocation":0.30000001192092896,
-  "BaseTemperature":[  ],
+  "BaseTemperature":[1, 1, 1, 1, 9, 9],
   "CarboxylationPathway":1,
   "CriticalOxygenContent":[  
     0.080000000000000002,

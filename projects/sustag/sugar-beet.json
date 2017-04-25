@@ -1,0 +1,98 @@
+{
+	"metadata": {
+		"description": "Derived from default values, used within SUSTAg project",
+		"parameter version": 1,
+		"model version": 2.1
+	},
+    "AbovegroundOrgan": [
+		false,
+		true,
+		true,
+		false
+	],
+	"AssimilateReallocation": 0.30000001192092896,
+	"BaseTemperature": [
+		3,
+		3,
+		0,
+		0,
+		0,
+		0
+	],
+	"CarboxylationPathway": 1,
+	"CriticalOxygenContent": [
+		0.03,
+		0.03,
+		0.03,
+		0.03,
+		0.03,
+		0.03
+	],
+	"CuttingDelayDays": 0,
+	"DefaultRadiationUseEfficiency": 0.5,
+	"DevelopmentAccelerationByNitrogenStress": 0,
+	"DroughtImpactOnFertilityFactor": 0,
+	"FieldConditionModifier": 1,
+	"InitialKcFactor": 0.4000000059604645,
+	"InitialOrganBiomass": [
+		5,
+		10,
+		0,
+		0
+	],
+	"InitialRootingDepth": 0.05999999865889549,
+	"LimitingTemperatureHeatStress": 40,
+	"LuxuryNCoeff": 1.649999976158142,
+	"MaxCropDiameter": 0,
+	"MaxNUptakeParam": 5.644999980926514,
+	"MinimumNConcentration": 0.004000000189989805,
+	"MinimumTemperatureForAssimilation": 4,
+	"OptimumTemperatureForAssimilation": 18,
+	"MaximumTemperatureForAssimilation": 36,
+	"MinimumTemperatureRootGrowth": 0,
+	"NConcentrationAbovegroundBiomass": 0.05999999865889549,
+	"NConcentrationB0": 3,
+	"NConcentrationPN": 1.350000023841858,
+	"NConcentrationRoot": 0.019999999552965164,
+	"OrganGrowthRespiration": [
+		0.28,
+		0.28,
+		0.31,
+		0.18
+	],
+	"OrganMaintenanceRespiration": [
+		0.015,
+		0.03,
+		0.015,
+		0.003
+	],
+	"PartBiologicalNFixation": 0,
+	"PlantDensity": 8,
+	"RootDistributionParam": 0.0012000000569969416,
+	"RootFormFactor": 2,
+	"RootGrowthLag": -60,
+	"RootPenetrationRate": 0.0010999999940395355,
+	"SamplingDepth": 0.8999999761581421,
+	"SpeciesName": "sugar beet",
+	"SpecificRootLength": 300,
+	"StageAfterCut": 0,
+	"StageAtMaxDiameter": 3,
+	"StageAtMaxHeight": 3,
+	"StageMaxRootNConcentration": [
+		0.02,
+		0.015,
+		0.012,
+		0.01,
+		0.009,
+		0.009
+	],
+	"StorageOrgan": [
+		false,
+		false,
+		false,
+		true
+	],
+	"TargetN30": 200,
+	"TargetNSamplingDepth": 200,
+	"type": "SpeciesParameters"
+}

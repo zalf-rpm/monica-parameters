@@ -1,18 +1,24 @@
 {
+	"metadata": {
+		"description": "calibrated for MACSUR N2O study for Torino site (IT)",
+		"parameter version": 1,
+		"model version": 2.1
+	},
 	"AbovegroundOrgan": [
 		false,
 		true,
+		true,
 		true
 	],
-	"AssimilateReallocation": 0.30000001192092896,
+	"AssimilateReallocation": 0.1,
 	"BaseTemperature": [
-		12,
-		12,
-		10,
-		12,
-		12,
-		12,
-		12
+		7,
+		6,
+		6,
+		6,
+		9,
+		9,
+		9
 	],
 	"CarboxylationPathway": 2,
 	"CriticalOxygenContent": [
@@ -33,42 +39,47 @@
 	"InitialOrganBiomass": [
 		12,
 		12,
+		0,
 		0
 	],
 	"InitialRootingDepth": 0.10000000149011612,
 	"LimitingTemperatureHeatStress": 40,
-	"LuxuryNCoeff": 1,
+	"LuxuryNCoeff": 1.5,
 	"MaxCropDiameter": 0.02500000037252903,
 	"MaxNUptakeParam": 7.400000095367432,
 	"MinimumNConcentration": 0.004000000189989805,
-	"MinimumTemperatureForAssimilation": 9,
+	"MinimumTemperatureForAssimilation": 8,
+	"OptimumTemperatureForAssimilation": 27,
+	"MaximumTemperatureForAssimilation": 38,
 	"MinimumTemperatureRootGrowth": 9,
 	"NConcentrationAbovegroundBiomass": 0.05999999865889549,
-	"NConcentrationB0": 6.267000198364258,
-	"NConcentrationPN": 1,
+	"NConcentrationB0": 5.2,
+	"NConcentrationPN": 0.52,
 	"NConcentrationRoot": 0.019999999552965164,
 	"OrganGrowthRespiration": [
-		0.01,
-		0.03,
-		0.01
+		0.28,
+		0.28,
+		0.31,
+		0.28
 	],
 	"OrganMaintenanceRespiration": [
-		0.01,
+		0.015,
 		0.03,
+		0.015,
 		0.01
 	],
 	"PartBiologicalNFixation": 0,
-	"PlantDensity": 10,
+	"PlantDensity": 8,
 	"RootDistributionParam": 0.0035000001080334187,
-	"RootFormFactor": 3,
+	"RootFormFactor": 4.5,
 	"RootGrowthLag": -30,
 	"RootPenetrationRate": 0.00139999995008111,
 	"SamplingDepth": 0.8999999761581421,
-	"SpeciesName": "sorghum",
+	"SpeciesName": "maize",
 	"SpecificRootLength": 300,
 	"StageAfterCut": 0,
 	"StageAtMaxDiameter": 4,
-	"StageAtMaxHeight": 5,
+	"StageAtMaxHeight": 4,
 	"StageMaxRootNConcentration": [
 		0.02,
 		0.02,
@@ -81,7 +92,8 @@
 	"StorageOrgan": [
 		false,
 		false,
-		false
+		false,
+		true
 	],
 	"TargetN30": 60,
 	"TargetNSamplingDepth": 200,

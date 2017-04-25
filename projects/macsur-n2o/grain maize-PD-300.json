@@ -1,39 +1,51 @@
 {
+	"metadata": {
+		"description": "calibrated for MACSUR N2O exercise for Padova site (IT)",
+		"parameter version": 1,
+		"model version": 2.1
+	},
 	"AssimilatePartitioningCoeff": [
 		[
-			0.65,
-			0.35,
+			0.75,
+			0.25,
+			0,
 			0
 		],
 		[
 			0.6,
 			0.2,
-			0.2
+			0.2,
+			0
 		],
 		[
 			0.2,
-			0.4,
-			0.4
+			0.15,
+			0.65,
+			0
 		],
 		[
 			0.05,
-			0.35,
-			0.6
-		],
-		[
 			0.05,
-			0.25,
-			0.7
+			0.7,
+			0.2
 		],
 		[
 			0,
-			0.4,
-			0.6
+			0,
+			0.1,
+			0.9
 		],
 		[
 			0,
-			0.4,
-			0.6
+			0,
+			0,
+			1
+		],
+		[
+			0,
+			0,
+			0,
+			1
 		]
 	],
 	"BaseDaylength": [
@@ -49,17 +61,17 @@
 		"h"
 	],
 	"BeginSensitivePhaseHeatStress": [
-		0,
-		"°C d"
+		1014,
+		"�C d"
 	],
 	"CriticalTemperatureHeatStress": [
-		31,
-		"°C"
+		35,
+		"�C"
 	],
-	"CropHeightP1": 7.760000228881836,
-	"CropHeightP2": 0.49000000953674316,
-	"CropSpecificMaxRootingDepth": 1.399999976158142,
-	"CultivarName": "",
+	"CropHeightP1": 9,
+	"CropHeightP2": 0.3499999940395355,
+	"CropSpecificMaxRootingDepth": 1.05,
+	"CultivarName": "silage maize",
 	"DaylengthRequirement": [
 		[
 			0,
@@ -74,28 +86,28 @@
 	],
 	"Description": "",
 	"DroughtStressThreshold": [
-		0,
-		0,
-		0,
-		0,
-		0,
-		0,
-		0
+		0.5,
+		0.5,
+		0.5,
+		0.6,
+		0.6,
+		0.5,
+		0.2
 	],
 	"EndSensitivePhaseHeatStress": [
-		0,
-		"°C d"
+		1229,
+		"�C d"
 	],
-	"FrostDehardening": 0,
-	"FrostHardening": 0,
+	"FrostDehardening": 5.050000190734863,
+	"FrostHardening": 0.014000000432133675,
 	"HeatSumIrrigationEnd": 993,
 	"HeatSumIrrigationStart": 113,
-	"LT50cultivar": 0,
+	"LT50cultivar": -1,
 	"LatestHarvestDoy": -1,
-	"LowTemperatureExposure": 0,
-	"MaxAssimilationRate": 50.20000076293945,
+	"LowTemperatureExposure": 0.6539999842643738,
+	"MaxAssimilationRate": 70,
 	"MaxCropHeight": [
-		3,
+		2,
 		"m"
 	],
 	"OptimumTemperature": [
@@ -108,21 +120,15 @@
 			30,
 			30
 		],
-		"°C"
+		"�C"
 	],
 	"OrganIdsForCutting": [],
-	"OrganIdsForPrimaryYield": [
+	"OrganIdsForPrimaryYield": [		
 		{
-			"organId": 2,
+			"organId": 4,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.32,
-			"yieldPercentage": 0.9
-		},
-		{
-			"organId": 3,
-			"type": "YieldComponent",
-			"yieldDryMatter": 0.32,
-			"yieldPercentage": 0.9
+			"yieldDryMatter": 0.86,
+			"yieldPercentage": 0.78
 		}
 	],
 	"OrganIdsForSecondaryYield": [],
@@ -130,14 +136,17 @@
 		[
 			0,
 			0,
+			0,
 			0
 		],
 		[
 			0,
 			0,
+			0,
 			0
 		],
 		[
+			0,
 			0,
 			0,
 			0
@@ -145,27 +154,31 @@
 		[
 			0.005,
 			0.001,
+			0,
 			0
 		],
 		[
 			0.1,
 			0.003,
+			0,
 			0
 		],
 		[
 			0.1,
-			0.005,
-			0.013
+			0.01,
+			0.013,
+			0
 		],
 		[
 			0,
 			0.02,
-			0.02
+			0.02,
+			0
 		]
 	],
 	"Perennial": false,
 	"ResidueNRatio": 0.5,
-	"RespiratoryStress": 0,
+	"RespiratoryStress": 0.5400000214576721,
 	"SpecificLeafArea": [
 		[
 			0.0025,
@@ -180,27 +193,27 @@
 	],
 	"StageKcFactor": [
 		[
-			0.2,
-			0.8,
+			0.4,
 			1,
-			0.9,
+			1,
+			1.2,
 			1.25,
-			0.9,
+			1.25,
 			1
 		],
 		"1;0"
 	],
 	"StageTemperatureSum": [
 		[
-			89.9,
-			250.2,
-			299.5,
-			400,
-			200,
-			300,
+			68,
+			650,
+			189,
+			217,
+			173,
+			347,
 			25
 		],
-		"°C d"
+		"�C d"
 	],
 	"VernalisationRequirement": [
 		0,

@@ -1,34 +1,39 @@
 {
-	"AssimilatePartitioningCoeff": [
+	"metadata": {
+		"description": "Derived from default values, used within SUSTAg project",
+		"parameter version": 1,
+		"model version": 2.1
+	},
+    "AssimilatePartitioningCoeff": [
 		[
-			0.6,
-			0.3,
-			0.1,
+			0.5,
+			0.5,
+			0,
 			0
 		],
 		[
-			0.32,
-			0.52,
-			0.16,
+			0.2,
+			0.59,
+			0.21,
 			0
 		],
 		[
-			0.08,
-			0.32,
-			0.6,
-			0
+			0.01,
+			0.25,
+			0.24,
+			0.5
 		],
 		[
-			0.05,
-			0.1,
-			0.7,
-			0.15
+			0,
+			0.07,
+			0.11,
+			0.82
 		],
 		[
 			0,
 			0,
-			0,
-			1
+			0.01,
+			0.99
 		],
 		[
 			0,
@@ -39,17 +44,17 @@
 	],
 	"BaseDaylength": [
 		[
-			14,
-			14,
-			14,
-			12,
-			12,
-			10
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
 		],
 		"h"
 	],
 	"BeginSensitivePhaseHeatStress": [
-		420,
+		0,
 		"°C d"
 	],
 	"CriticalTemperatureHeatStress": [
@@ -58,8 +63,8 @@
 	],
 	"CropHeightP1": 9,
 	"CropHeightP2": 0.3499999940395355,
-	"CropSpecificMaxRootingDepth": 1.600000023841858,
-	"CultivarName": "br mid",
+	"CropSpecificMaxRootingDepth": 1.100000023841858,
+	"CultivarName": "moderately early potato",
 	"DaylengthRequirement": [
 		[
 			0,
@@ -73,37 +78,37 @@
 	],
 	"Description": "",
 	"DroughtStressThreshold": [
+		0.2,
+		0.2,
 		0.8,
-		0.8,
-		0.65,
-		0.65,
-		0.65,
-		0.65
+		0.7,
+		0.7,
+		0.7
 	],
 	"EndSensitivePhaseHeatStress": [
-		520,
+		0,
 		"°C d"
 	],
-	"FrostDehardening": 0,
-	"FrostHardening": 0,
-	"HeatSumIrrigationEnd": 1000,
-	"HeatSumIrrigationStart": 100,
-	"LT50cultivar": 0,
+	"FrostDehardening": 5.050000190734863,
+	"FrostHardening": 0.014000000432133675,
+	"HeatSumIrrigationEnd": 900,
+	"HeatSumIrrigationStart": 113,
+	"LT50cultivar": -5,
 	"LatestHarvestDoy": -1,
-	"LowTemperatureExposure": 0,
-	"MaxAssimilationRate": 50,
+	"LowTemperatureExposure": 0.6539999842643738,
+	"MaxAssimilationRate": 30,
 	"MaxCropHeight": [
-		1,
+		0.5,
 		"m"
 	],
 	"OptimumTemperature": [
 		[
-			26,
 			30,
 			30,
-			26,
-			25,
-			25
+			30,
+			30,
+			30,
+			30
 		],
 		"°C"
 	],
@@ -112,8 +117,8 @@
 		{
 			"organId": 4,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.67,
-			"yieldPercentage": 0.35
+			"yieldDryMatter": 0.22,
+			"yieldPercentage": 0.95
 		}
 	],
 	"OrganIdsForSecondaryYield": [],
@@ -143,51 +148,51 @@
 			0
 		],
 		[
-			0,
-			0.05,
+			0.08,
+			0.03,
 			0,
 			0
 		],
 		[
-			0,
-			0.05,
+			0.08,
+			0.03,
 			0,
 			0
 		]
 	],
 	"Perennial": false,
-	"ResidueNRatio": 0.800000011920929,
-	"RespiratoryStress": 0,
+	"ResidueNRatio": 1.899999976158142,
+	"RespiratoryStress": 0.5400000214576721,
 	"SpecificLeafArea": [
 		[
-			0.00164,
-			0.0018,
+			0.003,
+			0.002,
 			0.0015,
-			0.001,
-			0.001,
-			0.00136
+			0.0012,
+			0.0012,
+			0.0012
 		],
 		"ha kg-1"
 	],
 	"StageKcFactor": [
 		[
-			0.35,
-			0.55,
-			0.55,
+			0.4,
+			0.6,
+			1,
 			1.1,
-			1.1,
-			0.55
+			0.85,
+			0.4
 		],
 		"1;0"
 	],
 	"StageTemperatureSum": [
 		[
-			100,
-			380,
-			270,
-			529,
-			400,
-			20
+			148,
+			300,
+			300,
+			280,
+			800,
+			25
 		],
 		"°C d"
 	],

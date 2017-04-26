@@ -12,10 +12,12 @@
 		12,
 		10,
 		10,
-		10
+		10,
+		14
 	],
 	"CarboxylationPathway": 1,
 	"CriticalOxygenContent": [
+		0.08,
 		0.08,
 		0.08,
 		0.08,
@@ -50,10 +52,10 @@
 	"NConcentrationPN": 1,
 	"NConcentrationRoot": 0.019999999552965164,
 	"OrganGrowthRespiration": [
-		0.28,
-		0.28,
-		0.31,
-		0.39
+		0.01,
+		0.03,
+		0.015,
+		0.01
 	],
 	"OrganMaintenanceRespiration": [
 		0.01,
@@ -79,7 +81,8 @@
 		0.01,
 		0.01,
 		0.01,
-		0.01
+		0.01,
+		0.1
 	],
 	"StorageOrgan": [
 		false,

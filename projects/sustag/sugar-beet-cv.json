@@ -13,15 +13,15 @@
 		],
 		[
 			0.15,
-			0.41,
-			0.41,
+			0.5,
+			0.33,
 			0.02
 		],
 		[
-			0,
-			0.15,
-			0.27,
-			0.58
+			0.1,
+			0.2,
+			0.25,
+			0.45
 		],
 		[
 			0,
@@ -96,7 +96,7 @@
 	"LT50cultivar": 0,
 	"LatestHarvestDoy": -1,
 	"LowTemperatureExposure": 0,
-	"MaxAssimilationRate": 40,
+	"MaxAssimilationRate": 33,
 	"MaxCropHeight": [
 		0.5,
 		"m"
@@ -172,12 +172,12 @@
 	"RespiratoryStress": 0,
 	"SpecificLeafArea": [
 		[
-			0.0009,
-			0.001,
-			0.001,
-			0.0009,
-			0.0009,
-			0.0009
+			0.0015,
+			0.0015,
+			0.0015,
+			0.0015,
+			0.0015,
+			0.0015
 		],
 		"ha kg-1"
 	],
@@ -195,10 +195,10 @@
 	"StageTemperatureSum": [
 		[
 			100,
-			300,
-			565,
-			608,
-			1600,
+			245,
+			400,
+			455,
+			1200,
 			25
 		],
 		"°C d"

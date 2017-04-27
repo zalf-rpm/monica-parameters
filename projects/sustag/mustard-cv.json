@@ -1,33 +1,33 @@
 {
 	"metadata": {
-		"description": "Derived from default values, used within SUSTAg project",
+		"description": "Calibrated for MACSUR crop rotation exercise for Czech Republic",
 		"parameter version": 1,
 		"model version": 2.1
 	},
-	"AssimilatePartitioningCoeff": [
+    "AssimilatePartitioningCoeff": [
 		[
 			0.5,
 			0.5,
-			0.2,
+			0,
 			0
 		],
 		[
-			0.2,
-			0.6,
-			0.2,
+			0.3,
+			0.4,
+			0.3,
 			0
 		],
 		[
-			0.13,
-			0.33,
-			0.54,
+			0.15,
+			0.1,
+			0.75,
 			0
 		],
 		[
 			0,
 			0,
-			0.04,
-			0.96
+			0.1,
+			0.9
 		],
 		[
 			0,
@@ -62,7 +62,7 @@
 		"°C"
 	],
 	"CropHeightP1": 9,
-	"CropHeightP2": 0.6000000238418579,
+	"CropHeightP2": 0.3499999940395355,
 	"CropSpecificMaxRootingDepth": 1.5,
 	"CultivarName": "",
 	"DaylengthRequirement": [
@@ -79,10 +79,10 @@
 	"Description": "",
 	"DroughtStressThreshold": [
 		1,
-		0.8,
-		0.8,
-		0.8,
-		0.8,
+		1,
+		1,
+		1,
+		1,
 		1
 	],
 	"EndSensitivePhaseHeatStress": [
@@ -93,12 +93,12 @@
 	"FrostHardening": 0.014000000432133675,
 	"HeatSumIrrigationEnd": 1000,
 	"HeatSumIrrigationStart": 450,
-	"LT50cultivar": -10,
+	"LT50cultivar": -18,
 	"LatestHarvestDoy": -1,
 	"LowTemperatureExposure": 0.6539999842643738,
-	"MaxAssimilationRate": 30,
+	"MaxAssimilationRate": 33,
 	"MaxCropHeight": [
-		1,
+		0.800000011920929,
 		"m"
 	],
 	"OptimumTemperature": [
@@ -115,25 +115,26 @@
 	"OrganIdsForCutting": [],
 	"OrganIdsForPrimaryYield": [
 		{
+			"organId": 4,
+			"type": "YieldComponent",
+			"yieldDryMatter": 0.91,
+			"yieldPercentage": 0.55
+		}
+	],
+	"OrganIdsForSecondaryYield": [
+		{
 			"organId": 2,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.15,
-			"yieldPercentage": 0.01
+			"yieldDryMatter": 0.35,
+			"yieldPercentage": 0.85
 		},
 		{
 			"organId": 3,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.15,
-			"yieldPercentage": 0.01
-		},
-		{
-			"organId": 4,
-			"type": "YieldComponent",
-			"yieldDryMatter": 0.15,
-			"yieldPercentage": 0.01
+			"yieldDryMatter": 0.35,
+			"yieldPercentage": 0.85
 		}
 	],
-	"OrganIdsForSecondaryYield": [],
 	"OrganSenescenceRate": [
 		[
 			0,
@@ -155,25 +156,25 @@
 		],
 		[
 			0,
-			0,
-			0,
-			0
-		],
-		[
-			0,
-			0.03,
+			0.01,
 			0,
 			0
 		],
 		[
 			0,
-			0.03,
+			0.01,
+			0,
+			0
+		],
+		[
+			0,
+			0.01,
 			0,
 			0
 		]
 	],
 	"Perennial": false,
-	"ResidueNRatio": 1,
+	"ResidueNRatio": 0.30000001192092896,
 	"RespiratoryStress": 0.5400000214576721,
 	"SpecificLeafArea": [
 		[

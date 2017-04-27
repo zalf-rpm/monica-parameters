@@ -6,9 +6,9 @@
 	},
     "AssimilatePartitioningCoeff": [
 		[
-			0.54,
-			0.28,
-			0.18,
+			0.5,
+			0.3,
+			0.2,
 			0
 		],
 		[
@@ -96,7 +96,7 @@
 	"LT50cultivar": 0,
 	"LatestHarvestDoy": -1,
 	"LowTemperatureExposure": 0,
-	"MaxAssimilationRate": 33,
+	"MaxAssimilationRate": 30,
 	"MaxCropHeight": [
 		0.5,
 		"m"
@@ -172,12 +172,12 @@
 	"RespiratoryStress": 0,
 	"SpecificLeafArea": [
 		[
-			0.0015,
-			0.0015,
-			0.0015,
-			0.0015,
-			0.0015,
-			0.0015
+			0.0016,
+			0.0016,
+			0.0016,
+			0.0016,
+			0.0016,
+			0.0016
 		],
 		"ha kg-1"
 	],

@@ -1,10 +1,10 @@
 {
-    "metadata": {
-		"description": "Calibrated for MACSUR crop rotation exercise for Czech Republic",
+	"metadata": {
+		"description": "Derived from default values, used within SUSTAg project",
 		"parameter version": 1,
 		"model version": 2.1
 	},
-	"AbovegroundOrgan": [
+    "AbovegroundOrgan": [
 		false,
 		true,
 		true,
@@ -12,7 +12,7 @@
 	],
 	"AssimilateReallocation": 0.30000001192092896,
 	"BaseTemperature": [
-		0,
+		1,
 		1,
 		1,
 		1,
@@ -42,23 +42,23 @@
 	],
 	"InitialRootingDepth": 0.10000000149011612,
 	"LimitingTemperatureHeatStress": 40,
-	"LuxuryNCoeff": 1.100000023841858,
+	"LuxuryNCoeff": 1,
 	"MaxCropDiameter": 0.006000000052154064,
 	"MaxNUptakeParam": 3.1449999809265137,
 	"MinimumNConcentration": 0.004999999888241291,
 	"MinimumTemperatureForAssimilation": 1,
-	"OptimumTemperatureForAssimilation": 28,
-	"MaximumTemperatureForAssimilation": 38,
+	"OptimumTemperatureForAssimilation": 25,
+	"MaximumTemperatureForAssimilation": 34,
 	"MinimumTemperatureRootGrowth": 0,
 	"NConcentrationAbovegroundBiomass": 0.05999999865889549,
-	"NConcentrationB0": 3.5,
-	"NConcentrationPN": 1.350000023841858,
+	"NConcentrationB0": 2.5,
+	"NConcentrationPN": 2.5,
 	"NConcentrationRoot": 0.019999999552965164,
 	"OrganGrowthRespiration": [
 		0.28,
 		0.28,
 		0.31,
-		0.55
+		0.28
 	],
 	"OrganMaintenanceRespiration": [
 		0.03,
@@ -67,12 +67,12 @@
 		0.015
 	],
 	"PartBiologicalNFixation": 0,
-	"PlantDensity": 100,
+	"PlantDensity": 600,
 	"RootDistributionParam": 0.00278700003400445,
-	"RootFormFactor": 1.5,
+	"RootFormFactor": 2,
 	"RootGrowthLag": -30,
-	"RootPenetrationRate": 0.0020000000949949026,
-	"SamplingDepth": 0.6000000238418579,
+	"RootPenetrationRate": 0.0007999999797903001,
+	"SamplingDepth": 0.8999999761581421,
 	"SpeciesName": "mustard",
 	"SpecificRootLength": 300,
 	"StageAfterCut": 0,
@@ -92,7 +92,7 @@
 		false,
 		true
 	],
-	"TargetN30": 120,
-	"TargetNSamplingDepth": 340,
+	"TargetN30": 20,
+	"TargetNSamplingDepth": 50,
 	"type": "SpeciesParameters"
 }

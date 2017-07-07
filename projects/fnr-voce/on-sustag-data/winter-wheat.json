@@ -1,0 +1,226 @@
+{
+	"metadata": {
+		"description": "calibrated for MACSUR climate change scaling exercise for North Rhine-Westphalia (DE). Straw is removed",
+		"parameter version": 3,
+		"model version": 2.1,
+		"calibration":{
+			"location": "NRW, Germany",
+			"timeframe": "1980-2010",
+			"variables": "anthesis, maturity"
+		}
+	},
+	"AssimilatePartitioningCoeff": [
+		[
+			0.5,
+			0.5,
+			0,
+			0
+		],
+		[
+			0.2,
+			0.5,
+			0.3,
+			0
+		],
+		[
+			0.13,
+			0.2,
+			0.67,
+			0
+		],
+		[
+			0,
+			0,
+			0.03,
+			0.97
+		],
+		[
+			0,
+			0,
+			0,
+			1
+		],
+		[
+			0,
+			0,
+			0,
+			0
+		]
+	],
+	"BaseDaylength": [
+		[
+			0,
+			0,
+			7,
+			7,
+			0,
+			0
+		],
+		"h"
+	],
+	"BeginSensitivePhaseHeatStress": [
+		639,
+		"°C d"
+	],
+	"CriticalTemperatureHeatStress": [
+		31,
+		"°C"
+	],
+	"CropHeightP1": 6,
+	"CropHeightP2": 0.5,
+	"CropSpecificMaxRootingDepth": 1.3,
+	"CultivarName": "winter wheat",
+	"DaylengthRequirement": [
+		[
+			0,
+			20,
+			20,
+			20,
+			0,
+			0
+		],
+		"h"
+	],
+	"Description": "",
+	"DroughtStressThreshold": [
+		1,
+		0.9,
+		1,
+		1,
+		0.9,
+		0.8
+	],
+	"EndSensitivePhaseHeatStress": [
+		866,
+		"°C d"
+	],
+	"FrostDehardening": 5.050000190734863,
+	"FrostHardening": 0.014000000432133675,
+	"HeatSumIrrigationEnd": 1264,
+	"HeatSumIrrigationStart": 1,
+	"LT50cultivar": -24,
+	"LatestHarvestDoy": -1,
+	"LowTemperatureExposure": 0.6539999842643738,
+	"MaxAssimilationRate": 28,
+	"MaxCropHeight": [
+		0.8299999833106995,
+		"m"
+	],
+	"OptimumTemperature": [
+		[
+			30,
+			30,
+			30,
+			30,
+			30,
+			30
+		],
+		"°C"
+	],
+	"OrganIdsForCutting": [],
+	"OrganIdsForPrimaryYield": [
+		{
+			"organId": 4,
+			"type": "YieldComponent",
+			"yieldDryMatter": 0.86,
+			"yieldPercentage": 0.85
+		}
+	],
+	"OrganIdsForSecondaryYield": [
+		{
+			"organId": 2,
+			"type": "YieldComponent",
+			"yieldDryMatter": 0.86,
+			"yieldPercentage": 0.85
+		},
+		{
+			"organId": 3,
+			"type": "YieldComponent",
+			"yieldDryMatter": 0.86,
+			"yieldPercentage": 0.9
+		}
+	],
+	"OrganSenescenceRate": [
+		[
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0,
+			0,
+			0
+		],
+		[
+			0,
+			0.02,
+			0.02,
+			0
+		],
+		[
+			0,
+			0.02,
+			0.02,
+			0
+		]
+	],
+	"Perennial": false,
+	"ResidueNRatio": 0.5,
+	"RespiratoryStress": 0.5400000214576721,
+	"SpecificLeafArea": [
+		[
+			0.002,
+			0.0018,
+			0.0017,
+			0.0016,
+			0.0015,
+			0.0015
+		],
+		"ha kg-1"
+	],
+	"StageKcFactor": [
+		[
+			0.4,
+			0.7,
+			1.1,
+			1.1,
+			0.8,
+			0.25
+		],
+		"1;0"
+	],
+	"StageTemperatureSum": [
+		[
+			148,
+			293,
+			393,
+			180,
+			434,
+			25
+		],
+		"°C d"
+	],
+	"VernalisationRequirement": [
+		0,
+		50,
+		0,
+		0,
+		0,
+		0
+	],
+	"type": "CultivarParameters"
+}

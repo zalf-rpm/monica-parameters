@@ -2,6 +2,7 @@
   "ef-mono":0.5,
   "ef-monos":0.5,
   "ef-iso":0,
+
   "AbovegroundOrgan":[  
     false,
     true,
@@ -44,24 +45,26 @@
   "MaxCropDiameter":0.0060000000521540642,
   "MaxNUptakeParam":3.1449999809265137,
   "MinimumNConcentration":0.004999999888241291,
-  "MinimumTemperatureForAssimilation":4,
+  "MinimumTemperatureForAssimilation": 1,
+	"OptimumTemperatureForAssimilation": 28,
+	"MaximumTemperatureForAssimilation": 38,
   "MinimumTemperatureRootGrowth":0,
   "NConcentrationAbovegroundBiomass":0.059999998658895493,
   "NConcentrationB0":3.5,
   "NConcentrationPN":1.3500000238418579,
   "NConcentrationRoot":0.019999999552965164,
-  "OrganGrowthRespiration":[  
-    0.01,
-    0.029999999999999999,
-    0.014999999999999999,
-    0.01
-  ],
-  "OrganMaintenanceRespiration":[  
-    0.01,
-    0.029999999999999999,
-    0.014999999999999999,
-    0.01
-  ],
+  "OrganGrowthRespiration": [
+		0.28,
+		0.28,
+		0.31,
+		0.55
+	],
+	"OrganMaintenanceRespiration": [
+		0.03,
+		0.03,
+		0.03,
+		0.015
+	],
   "PartBiologicalNFixation":0,
   "PlantDensity":100,
   "RootDistributionParam":0.0027870000340044498,

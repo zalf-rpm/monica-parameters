@@ -1,0 +1,98 @@
+{
+    "metadata": {
+		"description": "calibrated for AgMIP potato, Activity II phase 1",
+		"parameter version": 1,
+		"model version": 2.1
+	},
+	"AbovegroundOrgan": [
+		false,
+		true,
+		true,
+		false
+	],
+	"AssimilateReallocation": 0.30000001192092896,
+	"BaseTemperature": [
+		3,
+		3,
+		3,
+		3,
+		3,
+		3
+	],
+	"CarboxylationPathway": 1,
+	"CriticalOxygenContent": [
+		0.03,
+		0.03,
+		0.03,
+		0.03,
+		0.03,
+		0.03
+	],
+	"CuttingDelayDays": 0,
+	"DefaultRadiationUseEfficiency": 0.5,
+	"DevelopmentAccelerationByNitrogenStress": 0,
+	"DroughtImpactOnFertilityFactor": 0,
+	"FieldConditionModifier": 1,
+	"InitialKcFactor": 0.4000000059604645,
+	"InitialOrganBiomass": [
+		5,
+		10,
+		0,
+		0
+	],
+	"InitialRootingDepth": 0.10000000149011612,
+	"LimitingTemperatureHeatStress": 40,
+	"LuxuryNCoeff": 1.5,
+	"MaxCropDiameter": 0.009999999776482582,
+	"MaxNUptakeParam": 5.644999980926514,
+	"MinimumNConcentration": 0.006000000052154064,
+	"MinimumTemperatureForAssimilation": 3,
+	"OptimumTemperatureForAssimilation": 18,
+	"MaximumTemperatureForAssimilation": 32,
+	"MinimumTemperatureRootGrowth": 0,
+	"NConcentrationAbovegroundBiomass": 0.05999999865889549,
+	"NConcentrationB0": 3,
+	"NConcentrationPN": 1.350000023841858,
+	"NConcentrationRoot": 0.019999999552965164,
+	"OrganGrowthRespiration": [
+		0.28,
+		0.28,
+		0.31,
+		0.15
+	],
+	"OrganMaintenanceRespiration": [
+		0.01,
+		0.03,
+		0.015,
+		0.0045
+	],
+	"PartBiologicalNFixation": 0,
+	"PlantDensity": 6,
+	"RootDistributionParam": 0.0035000001080334187,
+	"RootFormFactor": 3,
+	"RootGrowthLag": -30,
+	"RootPenetrationRate": 0.0007999999797903001,
+	"SamplingDepth": 0.6000000238418579,
+	"SpeciesName": "potato",
+	"SpecificRootLength": 300,
+	"StageAfterCut": 0,
+	"StageAtMaxDiameter": 3,
+	"StageAtMaxHeight": 3,
+	"StageMaxRootNConcentration": [
+		0.02,
+		0.015,
+		0.012,
+		0.01,
+		0.009,
+		0.009
+	],
+	"StorageOrgan": [
+		false,
+		false,
+		false,
+		true
+	],
+	"TargetN30": 40,
+	"TargetNSamplingDepth": 160,
+	"type": "SpeciesParameters"
+}

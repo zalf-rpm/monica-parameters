@@ -12,22 +12,22 @@
 			0
 		],
 		[
-			0.25,
-			0.23,
-			0.52,
+			0.3,
+			0.4,
+			0.3,
 			0
 		],
 		[
-			0.17,
-			0.23,
-			0.5,
-			0.1
+			0.15,
+			0.1,
+			0.75,
+			0
 		],
 		[
 			0,
 			0,
-			0,
-			1
+			0.1,
+			0.9
 		],
 		[
 			0,
@@ -47,30 +47,30 @@
 			0,
 			0,
 			7,
-			0,
+			7,
 			0,
 			0
 		],
 		"h"
 	],
 	"BeginSensitivePhaseHeatStress": [
-		560,
+		0,
 		"°C d"
 	],
 	"CriticalTemperatureHeatStress": [
 		31,
 		"°C"
 	],
-	"CropHeightP1": 12,
-	"CropHeightP2": 0.6000000238418579,
-	"CropSpecificMaxRootingDepth": 1.2999999523162842,
-	"CultivarName": "spring barley",
+	"CropHeightP1": 9,
+	"CropHeightP2": 0.3499999940395355,
+	"CropSpecificMaxRootingDepth": 1.5,
+	"CultivarName": "winter rape",
 	"DaylengthRequirement": [
 		[
 			0,
 			20,
 			20,
-			0,
+			20,
 			0,
 			0
 		],
@@ -78,27 +78,27 @@
 	],
 	"Description": "",
 	"DroughtStressThreshold": [
-		0.8,
-		0.8,
-		0.8,
-		0.75,
-		0.6,
-		0.5
+		1,
+		1,
+		1,
+		1,
+		1,
+		1
 	],
 	"EndSensitivePhaseHeatStress": [
-		828,
+		0,
 		"°C d"
 	],
 	"FrostDehardening": 5.050000190734863,
 	"FrostHardening": 0.014000000432133675,
-	"HeatSumIrrigationEnd": 1032,
-	"HeatSumIrrigationStart": 560,
-	"LT50cultivar": -10,
+	"HeatSumIrrigationEnd": 1000,
+	"HeatSumIrrigationStart": 450,
+	"LT50cultivar": -18,
 	"LatestHarvestDoy": -1,
 	"LowTemperatureExposure": 0.6539999842643738,
-	"MaxAssimilationRate": 27,
+	"MaxAssimilationRate": 33,
 	"MaxCropHeight": [
-		0.8700000047683716,
+		0.800000011920929,
 		"m"
 	],
 	"OptimumTemperature": [
@@ -117,21 +117,21 @@
 		{
 			"organId": 4,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.86,
-			"yieldPercentage": 0.95
+			"yieldDryMatter": 0.91,
+			"yieldPercentage": 0.55
 		}
 	],
 	"OrganIdsForSecondaryYield": [
 		{
 			"organId": 2,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.86,
+			"yieldDryMatter": 0.35,
 			"yieldPercentage": 0.85
 		},
 		{
 			"organId": 3,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.86,
+			"yieldDryMatter": 0.35,
 			"yieldPercentage": 0.85
 		}
 	],
@@ -156,20 +156,20 @@
 		],
 		[
 			0,
-			0,
+			0.01,
 			0,
 			0
 		],
 		[
 			0,
-			0.03,
-			0.002,
+			0.01,
+			0,
 			0
 		],
 		[
 			0,
-			0.03,
-			0.002,
+			0.01,
+			0,
 			0
 		]
 	],
@@ -179,39 +179,39 @@
 	"SpecificLeafArea": [
 		[
 			0.002,
-			0.0019,
-			0.0018,
-			0.0017,
-			0.0016,
-			0.0016
+			0.002,
+			0.002,
+			0.002,
+			0.002,
+			0.002
 		],
 		"ha kg-1"
 	],
 	"StageKcFactor": [
 		[
-			0.4,
 			0.6,
-			1,
-			1,
+			1.1,
+			1.3,
+			1.1,
 			0.8,
-			0.25
+			0.6
 		],
 		"1;0"
 	],
 	"StageTemperatureSum": [
 		[
-			102,
-			334,
-			132,
-			196,
-			218,
+			175,
+			402,
+			129,
+			224,
+			706,
 			25
 		],
 		"°C d"
 	],
 	"VernalisationRequirement": [
 		0,
-		0,
+		50,
 		0,
 		0,
 		0,

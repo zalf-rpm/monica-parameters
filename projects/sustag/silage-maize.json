@@ -1,10 +1,15 @@
 {
 	"metadata": {
-		"description": "Calibrated for MACSUR crop rotation exercise for Czech Republic",
-		"parameter version": 1,
-		"model version": 2.1
+		"description": "calibrated for MACSUR climate change scaling exercise for North Rhine-Westphalia (DE)",
+		"parameter version": 3,
+		"model version": 2.1,
+		"calibration":{
+			"location": "NRW, Germany",
+			"timeframe": "1980-2010",
+			"variables": "anthesis, maturity"
+		}
 	},
-    "AssimilatePartitioningCoeff": [
+	"AssimilatePartitioningCoeff": [
 		[
 			0.5,
 			0.5,
@@ -12,16 +17,22 @@
 			0
 		],
 		[
-			0.25,
-			0.23,
-			0.52,
+			0.5,
+			0.3,
+			0.2,
 			0
 		],
 		[
-			0.17,
-			0.23,
-			0.5,
-			0.1
+			0.2,
+			0.15,
+			0.65,
+			0
+		],
+		[
+			0.05,
+			0.05,
+			0.65,
+			0.25
 		],
 		[
 			0,
@@ -39,14 +50,15 @@
 			0,
 			0,
 			0,
-			0
+			1
 		]
 	],
 	"BaseDaylength": [
 		[
 			0,
 			0,
-			7,
+			0,
+			0,
 			0,
 			0,
 			0
@@ -54,22 +66,23 @@
 		"h"
 	],
 	"BeginSensitivePhaseHeatStress": [
-		560,
+		752,
 		"°C d"
 	],
 	"CriticalTemperatureHeatStress": [
-		31,
+		35,
 		"°C"
 	],
-	"CropHeightP1": 12,
-	"CropHeightP2": 0.6000000238418579,
-	"CropSpecificMaxRootingDepth": 1.2999999523162842,
-	"CultivarName": "spring barley",
+	"CropHeightP1": 9,
+	"CropHeightP2": 0.3499999940395355,
+	"CropSpecificMaxRootingDepth": 1.4,
+	"CultivarName": "silage maize",
 	"DaylengthRequirement": [
 		[
 			0,
-			20,
-			20,
+			0,
+			0,
+			0,
 			0,
 			0,
 			0
@@ -78,31 +91,33 @@
 	],
 	"Description": "",
 	"DroughtStressThreshold": [
-		0.8,
-		0.8,
-		0.8,
-		0.75,
+		0.5,
+		0.5,
+		0.5,
 		0.6,
-		0.5
+		0.6,
+		0.5,
+		0.2
 	],
 	"EndSensitivePhaseHeatStress": [
-		828,
+		937,
 		"°C d"
 	],
 	"FrostDehardening": 5.050000190734863,
 	"FrostHardening": 0.014000000432133675,
-	"HeatSumIrrigationEnd": 1032,
-	"HeatSumIrrigationStart": 560,
-	"LT50cultivar": -10,
+	"HeatSumIrrigationEnd": 993,
+	"HeatSumIrrigationStart": 113,
+	"LT50cultivar": -1,
 	"LatestHarvestDoy": -1,
 	"LowTemperatureExposure": 0.6539999842643738,
-	"MaxAssimilationRate": 30,
+	"MaxAssimilationRate": 60,
 	"MaxCropHeight": [
-		0.8700000047683716,
+		2,
 		"m"
 	],
 	"OptimumTemperature": [
 		[
+			30,
 			30,
 			30,
 			30,
@@ -113,28 +128,27 @@
 		"°C"
 	],
 	"OrganIdsForCutting": [],
-	"OrganIdsForPrimaryYield": [
-		{
-			"organId": 4,
-			"type": "YieldComponent",
-			"yieldDryMatter": 0.86,
-			"yieldPercentage": 0.95
-		}
-	],
-	"OrganIdsForSecondaryYield": [
+	"OrganIdsForPrimaryYield": [		
 		{
 			"organId": 2,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.86,
-			"yieldPercentage": 0.85
+			"yieldDryMatter": 0.32,
+			"yieldPercentage": 0.9
 		},
 		{
 			"organId": 3,
 			"type": "YieldComponent",
-			"yieldDryMatter": 0.86,
-			"yieldPercentage": 0.85
+			"yieldDryMatter": 0.32,
+			"yieldPercentage": 0.9
+		},
+		{
+			"organId": 4,
+			"type": "YieldComponent",
+			"yieldDryMatter": 0.32,
+			"yieldPercentage": 1
 		}
 	],
+	"OrganIdsForSecondaryYield": [],
 	"OrganSenescenceRate": [
 		[
 			0,
@@ -155,61 +169,71 @@
 			0
 		],
 		[
-			0,
-			0,
+			0.005,
+			0.001,
 			0,
 			0
 		],
 		[
+			0.1,
+			0.003,
 			0,
-			0.03,
-			0.002,
+			0
+		],
+		[
+			0.1,
+			0.01,
+			0.013,
 			0
 		],
 		[
 			0,
-			0.03,
-			0.002,
+			0.02,
+			0.02,
 			0
 		]
 	],
 	"Perennial": false,
-	"ResidueNRatio": 0.30000001192092896,
+	"ResidueNRatio": 0.5,
 	"RespiratoryStress": 0.5400000214576721,
 	"SpecificLeafArea": [
 		[
-			0.002,
-			0.0019,
-			0.0018,
+			0.0025,
 			0.0017,
-			0.0016,
-			0.0016
+			0.0015,
+			0.0014,
+			0.0012,
+			0.0012,
+			0.0012
 		],
 		"ha kg-1"
 	],
 	"StageKcFactor": [
 		[
 			0.4,
-			0.6,
 			1,
 			1,
-			0.8,
-			0.25
+			1.2,
+			1.25,
+			1.25,
+			1
 		],
 		"1;0"
 	],
 	"StageTemperatureSum": [
 		[
-			102,
-			334,
-			132,
-			196,
-			218,
+			68,
+			483,
+			140,
+			161,
+			153,
+			305,
 			25
 		],
 		"°C d"
 	],
 	"VernalisationRequirement": [
+		0,
 		0,
 		0,
 		0,

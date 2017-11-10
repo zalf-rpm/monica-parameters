@@ -118,7 +118,7 @@
 			"organId": 4,
 			"type": "YieldComponent",
 			"yieldDryMatter": 0.22,
-			"yieldPercentage": 0.95
+			"yieldPercentage": 1
 		}
 	],
 	"OrganIdsForSecondaryYield": [],

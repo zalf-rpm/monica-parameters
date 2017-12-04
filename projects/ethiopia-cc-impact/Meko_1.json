@@ -6,28 +6,28 @@
 	}, 
   "AssimilatePartitioningCoeff":[  
     [  
-      0.4,
-      0.6,
-      0,
+      0.133,
+      0.547,
+      0.32,
       0
     ],
     [  
-      0.5,
-      0.5,
-      0.2,
+      0.166,
+      0.25,
+      0.548,
       0
     ],
     [  
-      0.2,
-      0.3,
-      0.5,
+      0.073,
+      0.193,
+      0.734,
       0
     ],
     [  
-      0.05,
-      0.15,
-      0.65,
-      0.15
+      0.356,
+      0.181,
+      0.463,
+      0.2
     ],
     [  
       0,
@@ -71,7 +71,7 @@
   "CropHeightP1":7.7600002288818359,
   "CropHeightP2":0.49000000953674316,
   "CropSpecificMaxRootingDepth":1.3999999761581421,
-  "CultivarName":"Teshale",
+  "CultivarName":"meko",
   "DaylengthRequirement":[  
     [  
       0,
@@ -105,7 +105,7 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":30,
+  "MaxAssimilationRate":50.200000762939453,
   "MaxCropHeight":[  
     3,
     "m"
@@ -130,7 +130,7 @@
       "organId":4,
       "type":"YieldComponent",
       "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.6
+      "yieldPercentage":0.296000000000000003
     }
   ],
   "OrganIdsForSecondaryYield":[  
@@ -188,8 +188,8 @@
       0.003,
       0.002,
       0.002,
-      0.002,
-      0.002,
+      0.0027,
+      0.0053719,
       0.0018,
       0.0018
     ],
@@ -209,13 +209,13 @@
   ],
   "StageTemperatureSum":[  
     [  
-      133.76173457342833,
-      188.47946137890767, 
-      169.4950987475803, 
-      91.50853299692173,
-      162,
-      86,
-      1
+      115.98359726,
+       132.06118533,
+      122.90680526,  
+     147.31987111, 
+     118.10357908,
+     82.71592175, 
+     337.31666824
     ],
     "°C d"
   ],

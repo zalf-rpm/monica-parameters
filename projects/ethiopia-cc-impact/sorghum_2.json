@@ -6,7 +6,7 @@
     true,
     true
   ],
-  "AssimilateReallocation":0.2,
+  "AssimilateReallocation":0.30000001192092896,
   "BaseTemperature":[  
     12,
     12,
@@ -71,7 +71,7 @@
   "RootGrowthLag":-30,
   "RootPenetrationRate":0.00139999995008111,
   "SamplingDepth":0.89999997615814209,
-  "SpecificRootLength":300,
+   "SpecificRootLength":300,
   "StageAfterCut":0,
   "StageAtMaxDiameter":4,
   "StageAtMaxHeight":5,

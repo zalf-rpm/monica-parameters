@@ -55,7 +55,7 @@
 	"MinimumNConcentration": 0.004000000189989805,
 	"MinimumTemperatureForAssimilation": 8,
 	"OptimumTemperatureForAssimilation": 29,
-	"MaximumTemperatureForAssimilation": 38,
+	"MaximumTemperatureForAssimilation": 42,
 	"MinimumTemperatureRootGrowth": 9,
 	"NConcentrationAbovegroundBiomass": 0.05999999865889549,
 	"NConcentrationB0": 5,

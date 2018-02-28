@@ -81,13 +81,13 @@
   ],
   "Description":"",
   "DroughtStressThreshold":[  
-    0.8,
-    0.8,
-    0.8,
-    0.8,
     0.9,
     0.9,
-    0.6
+    0.9,
+    0.9,
+    1.0,
+    1.0,
+    0.9
   ],
   "EndSensitivePhaseHeatStress":[  
     0,
@@ -100,7 +100,7 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":42,
+  "MaxAssimilationRate":45.0,
   "MaxCropHeight":[  
     2,
     "m"
@@ -181,9 +181,9 @@
   "SpecificLeafArea":[  
     [  
       0.003,
-      0.002,
-      0.002,
       0.0027,
+      0.0027,
+      0.0025,
       0.002,
       0.0018,
       0.0018

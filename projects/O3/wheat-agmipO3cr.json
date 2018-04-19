@@ -6,7 +6,7 @@
 		true,
 		true
 	],
-	"AssimilateReallocation": 0.3,
+	"AssimilateReallocation": 0.25,
 	"BaseTemperature": [
 		0,
 		1,

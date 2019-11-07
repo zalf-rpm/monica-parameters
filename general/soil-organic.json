@@ -142,9 +142,9 @@
     ],
     "type": "UserSoilOrganicParameters",
     "stics": {
-        "use_n2o": true,
-        "use_nit": true,
-        "use_denit": true,
+        "use_n2o": false,
+        "use_nit": false,
+        "use_denit": false,
         "code_vnit": [
             1,
             "",

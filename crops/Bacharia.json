@@ -8,11 +8,11 @@
   "AssimilateReallocation":0.30000001192092896,
   "BaseTemperature":[  
     1,
-    1,
-    1,
-    1,
-    9,
-    9
+    2,
+    4,
+    4,
+    4,
+    4
   ],
   "CarboxylationPathway":1,
   "CriticalOxygenContent":[  
@@ -32,7 +32,7 @@
   "InitialOrganBiomass":[  
     53,
     53,
-    0,
+    20,
     0
   ],
   "InitialRootingDepth":0.10000000149011612,
@@ -44,30 +44,29 @@
   "MinimumTemperatureForAssimilation":8,
   "MinimumTemperatureRootGrowth":0,
   "NConcentrationAbovegroundBiomass":0.059999998658895493,
-  "NConcentrationB0":0,
+  "NConcentrationB0":0.0010000000474974513,
   "NConcentrationPN":2.5999999046325684,
   "NConcentrationRoot":0.019999999552965164,
-  "OrganGrowthRespiration":
-  [  
+  "OrganGrowthRespiration":[  
     0.01,
     0.029999999999999999,
     0.01,
-    0.014999999999999999
+    0
   ],
   "OrganMaintenanceRespiration":[  
     0.01,
     0.029999999999999999,
     0.01,
-    0.014999999999999999
+    0
   ],
-  "PartBiologicalNFixation":0.74000000953674316,
+  "PartBiologicalNFixation":0,
   "PlantDensity":600,
   "RootDistributionParam":0.0027870000340044498,
   "RootFormFactor":5,
   "RootGrowthLag":-30,
   "RootPenetrationRate":0.00079999997979030013,
   "SamplingDepth":0.60000002384185791,
-  "SpeciesName":"clover grass ley",
+  "SpeciesName":"Bacharia",
   "SpecificRootLength":300,
   "StageAfterCut":2,
   "StageAtMaxDiameter":2,

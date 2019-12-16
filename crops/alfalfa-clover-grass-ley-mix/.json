@@ -72,14 +72,14 @@
     "h"
   ],
   "Description":"",
-  "DroughtStressThreshold":[  
+  "DroughtStressThreshold":[ [  
     1,
     1,
     1,
     1,
     1,
     1
-  ],
+  ]],
   "EndSensitivePhaseHeatStress":[  
     0,
     "°C d"
@@ -207,13 +207,13 @@
     ],
     "°C d"
   ],
-  "VernalisationRequirement":[  
+  "VernalisationRequirement":[[  
     35,
     35,
     0,
     0,
     0,
     0
-  ],
+  ]],
   "type":"CultivarParameters"
 }

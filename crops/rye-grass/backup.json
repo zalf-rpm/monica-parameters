@@ -1,37 +1,31 @@
 {  
   "AssimilatePartitioningCoeff":[  
     [  
-      0.5,
-      0.5,
-      0,
+      0.69999999999999996,
+      0.29999999999999999,
       0
     ],
     [  
       0.20000000000000001,
-      0.59999999999999998,
-      0.20000000000000001,
-      0
-    ],
-    [  
-      0,
-      0.37,
       0.5,
-      0.13
+      0.29999999999999999
     ],
     [  
       0,
-      0,
-      0.029999999999999999,
-      0.96999999999999997
+      0.40000000000000002,
+      0.59999999999999998
     ],
     [  
       0,
-      0,
-      0,
-      1
+      0.5,
+      0.5
     ],
     [  
       0,
+      0.5,
+      0.5
+    ],
+    [  
       0,
       0,
       0
@@ -56,16 +50,16 @@
     31,
     "°C"
   ],
-  "CropHeightP1":9,
-  "CropHeightP2":0.34999999403953552,
+  "CropHeightP1":9.0979995727539063,
+  "CropHeightP2":0.1940000057220459,
   "CropSpecificMaxRootingDepth":0.30000001192092896,
   "CultivarName":"",
   "DaylengthRequirement":[  
     [  
       0,
-      20,
-      20,
-      20,
+      0,
+      0,
+      0,
       0,
       0
     ],
@@ -91,9 +85,9 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":45,
+  "MaxAssimilationRate":15.300000190734863,
   "MaxCropHeight":[  
-    0.20000000298023224,
+    0.69999998807907104,
     "m"
   ],
   "OptimumTemperature":[  
@@ -111,19 +105,13 @@
     {  
       "organId":2,
       "type":"YieldComponent",
-      "yieldDryMatter":0.30000001192092896,
+      "yieldDryMatter":0.18000000715255737,
       "yieldPercentage":0.84999999999999998
     },
     {  
       "organId":3,
       "type":"YieldComponent",
-      "yieldDryMatter":0.30000001192092896,
-      "yieldPercentage":0.84999999999999998
-    },
-    {  
-      "organId":4,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.30000001192092896,
+      "yieldDryMatter":0.18000000715255737,
       "yieldPercentage":0.84999999999999998
     }
   ],
@@ -135,39 +123,33 @@
   ],
   "OrganSenescenceRate":[  
     [  
-      0.0,
       0,
       0,
       0
     ],
     [  
-      0.01,
       0,
       0,
       0
     ],
     [  
-      0.01,
-      0.01,
+      0,
       0,
       0
     ],
     [  
-      0.01,
-      0.01,
+      0,
       0,
       0
     ],
     [  
-      0.01,
+      0,
       0.029999999999999999,
-      0,
       0
     ],
     [  
-      0.01,
-      0.029999999999999999,
       0,
+      0.029999999999999999,
       0
     ]
   ],
@@ -198,9 +180,9 @@
   ],
   "StageTemperatureSum":[  
     [  
-      40,
-      284,
-      200,
+      10,
+      281.5,
+      340,
       400,
       350,
       25

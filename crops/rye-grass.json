@@ -2,7 +2,8 @@
   "AbovegroundOrgan":[  
     false,
     true,
-    true
+    true,
+    false
   ],
   "AssimilateReallocation":0.30000001192092896,
   "BaseTemperature":[  
@@ -31,7 +32,8 @@
   "InitialOrganBiomass":[  
     53,
     53,
-    20
+    0,
+    0
   ],
   "InitialRootingDepth":0.10000000149011612,
   "LimitingTemperatureHeatStress":40,
@@ -45,15 +47,18 @@
   "NConcentrationB0":0.0010000000474974513,
   "NConcentrationPN":2.5999999046325684,
   "NConcentrationRoot":0.019999999552965164,
-  "OrganGrowthRespiration":[  
-    0.01,
-    0.029999999999999999,
-    0.01
-  ],
+  "OrganGrowthRespiration":
+    [  
+      0.01,
+      0.029999999999999999,
+      0.01,
+      0.014999999999999999
+    ],
   "OrganMaintenanceRespiration":[  
     0.01,
     0.029999999999999999,
-    0.01
+    0.01,
+    0.014999999999999999
   ],
   "PartBiologicalNFixation":0,
   "PlantDensity":600,
@@ -78,9 +83,19 @@
   "StorageOrgan":[  
     false,
     false,
-    false
+    false,
+    true
   ],
   "TargetN30":20,
   "TargetNSamplingDepth":50,
-  "type":"SpeciesParameters"
+  "type":"SpeciesParameters",
+  "StageMobilFromStorageCoeff":
+  [
+    0.0,
+    0.05,
+    0.10,
+    0.05,
+    0.05,
+    0.05 
+  ]
 }

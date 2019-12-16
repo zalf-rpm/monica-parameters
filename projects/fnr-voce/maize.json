@@ -1,8 +1,8 @@
 {  
-  "ef-mono": 0.5,
-  "ef-monos": 0.5,
-  "ef-iso": 0,
-  "VCMAX25": 13.1,
+  "EF_MONO": 0.1961,
+  "EF_MONOS": 0.0469,
+  "EF_ISO": 0.0306,
+  "VCMAX25": 140.0, "": 13.1,
 
   "AbovegroundOrgan":[  
     false,

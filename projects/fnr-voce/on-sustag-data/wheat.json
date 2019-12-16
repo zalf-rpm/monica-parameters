@@ -10,10 +10,10 @@
 		}
 	},
 
-	"ef-mono": 0.5,
-  "ef-monos": 0.5,
-  "ef-iso": 0.5,
-	
+	"EF_MONO": 0.5,
+  "EF_MONOS": 0.5,
+	"EF_ISO": 0.5,
+		
 	"AbovegroundOrgan": [
 		false,
 		true,

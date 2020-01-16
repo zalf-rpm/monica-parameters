@@ -91,7 +91,7 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":45,
+  "MaxAssimilationRate":31,
   "MaxCropHeight":[  
     0.20000000298023224,
     "m"
@@ -135,21 +135,21 @@
   ],
   "OrganSenescenceRate":[  
     [  
-      0.011,
+      0.03,
       0,
       0,
-      0
+      0.03
     ],
     [  
       0.01257,
       0,
       0,
-      0
+      0.02
     ],
     [  
       0.037,
       0.01,
-      0,
+      0.01,
       0.03
     ],
     [  
@@ -178,7 +178,7 @@
     [  
       0.002,
       0.002,
-      0.005,
+      0.003,
       0.005,
       0.002,
       0.002
@@ -199,11 +199,11 @@
   "StageTemperatureSum":[  
     [  
       40,
-      260,
-      182,
+      330,
       340,
-      310,
-      25
+      360,
+      320,
+      140
     ],
     "°C d"
   ],

@@ -211,7 +211,7 @@
             "param_gen.xml"
         ],
         "pHminden": [
-            7.2,
+            5.6,
             "",
             "pH below which denitrification only produces N2O (for a soil WFPS of ~80%)",
             "param_gen.xml"

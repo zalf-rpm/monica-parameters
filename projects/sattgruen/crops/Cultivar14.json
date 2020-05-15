@@ -50,11 +50,11 @@
   ],
   "BeginSensitivePhaseHeatStress": [
     0,
-    "\u00c2\u00b0C d"
+    "C d"
   ],
   "CriticalTemperatureHeatStress": [
     31,
-    "\u00c2\u00b0C"
+    "C"
   ],
   "CropHeightP1": 9.097999572753906,
   "CropHeightP2": 0.1940000057220459,
@@ -82,7 +82,7 @@
   ],
   "EndSensitivePhaseHeatStress": [
     0,
-    "\u00c2\u00b0C d"
+    "C d"
   ],
   "FrostDehardening": 0,
   "FrostHardening": 0,
@@ -105,7 +105,7 @@
       30,
       30
     ],
-    "\u00c2\u00b0C"
+    "C"
   ],
   "OrganIdsForCutting": [
     {
@@ -195,7 +195,7 @@
       403.22951,
       46.11915
     ],
-    "\u00c2\u00b0C d"
+    "C d"
   ],
   "VernalisationRequirement": [
     0,

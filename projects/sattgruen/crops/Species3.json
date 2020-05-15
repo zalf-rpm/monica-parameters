@@ -7,12 +7,12 @@
   ],
   "AssimilateReallocation": 0.30000001192092896,
   "BaseTemperature": [
-    1,
-    2,
-    4,
-    4,
-    4,
-    4
+    0.90254,
+    1.14921,
+    3.5516,
+    3.02791,
+    4.7861199999999995,
+    3.2988800000000005
   ],
   "CarboxylationPathway": 1,
   "CriticalOxygenContent": [
@@ -23,7 +23,7 @@
     0.08,
     0.08
   ],
-  "CuttingDelayDays": 10,
+  "CuttingDelayDays": 7.08228,
   "DefaultRadiationUseEfficiency": 0.5,
   "DevelopmentAccelerationByNitrogenStress": 0,
   "DroughtImpactOnFertilityFactor": 0,
@@ -89,11 +89,11 @@
   "TargetNSamplingDepth": 50,
   "type": "SpeciesParameters",
   "StageMobilFromStorageCoeff": [
-    0.0,
-    0.05,
-    0.1,
-    0.05,
-    0.05,
-    0.05
+    0.00014,
+    0.03081,
+    0.26242,
+    0.17874,
+    0.069,
+    0.03456
   ]
 }

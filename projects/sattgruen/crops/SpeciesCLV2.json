@@ -1,0 +1,99 @@
+{
+  "AbovegroundOrgan": [
+    false,
+    true,
+    true,
+    false
+  ],
+  "AssimilateReallocation": 0.30000001192092896,
+  "BaseTemperature": [
+    0.92006,
+    1.27834,
+    2.82136,
+    3.9541,
+    4.02372,
+    3.4377800000000005
+  ],
+  "CarboxylationPathway": 1,
+  "CriticalOxygenContent": [
+    0.08,
+    0.08,
+    0.08,
+    0.08,
+    0.08,
+    0.08
+  ],
+  "CuttingDelayDays": 6.39468,
+  "DefaultRadiationUseEfficiency": 0.5,
+  "DevelopmentAccelerationByNitrogenStress": 0,
+  "DroughtImpactOnFertilityFactor": 0,
+  "FieldConditionModifier": 1,
+  "InitialKcFactor": 0.4000000059604645,
+  "InitialOrganBiomass": [
+    53,
+    53,
+    0,
+    0
+  ],
+  "InitialRootingDepth": 0.10000000149011612,
+  "LimitingTemperatureHeatStress": 40,
+  "LuxuryNCoeff": 1,
+  "MaxCropDiameter": 0.003000000026077032,
+  "MaxNUptakeParam": 3.1449999809265137,
+  "MinimumNConcentration": 0.004999999888241291,
+  "MinimumTemperatureForAssimilation": 8,
+  "MinimumTemperatureRootGrowth": 0,
+  "NConcentrationAbovegroundBiomass": 0.05999999865889549,
+  "NConcentrationB0": 0,
+  "NConcentrationPN": 2.5999999046325684,
+  "NConcentrationRoot": 0.019999999552965164,
+  "OrganGrowthRespiration": [
+    0.01,
+    0.03,
+    0.01,
+    0.015
+  ],
+  "OrganMaintenanceRespiration": [
+    0.01,
+    0.03,
+    0.01,
+    0.015
+  ],
+  "PartBiologicalNFixation": 0.34000000953674314,
+  "PlantDensity": 600,
+  "RootDistributionParam": 0.00278700003400445,
+  "RootFormFactor": 5,
+  "RootGrowthLag": -30,
+  "RootPenetrationRate": 0.0007999999797903001,
+  "SamplingDepth": 0.6000000238418579,
+  "SpeciesName": "clover grass ley",
+  "SpecificRootLength": 300,
+  "StageAfterCut": 2,
+  "StageAtMaxDiameter": 2,
+  "StageAtMaxHeight": 3,
+  "StageMaxRootNConcentration": [
+    0.02,
+    0.02,
+    0.012,
+    0.01,
+    0.01,
+    0.01
+  ],
+  "StorageOrgan": [
+    false,
+    false,
+    false,
+    true
+  ],
+  "TargetN30": 20,
+  "TargetNSamplingDepth": 50,
+  "type": "SpeciesParameters",
+  "StageMobilFromStorageCoeff": [
+    0.00013000000000000002,
+    0.030189999999999998,
+    0.23644,
+    0.15027000000000001,
+    0.09172999999999999,
+    0.03092
+  ]
+}

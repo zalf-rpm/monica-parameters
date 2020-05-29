@@ -59,7 +59,7 @@
     0.01,
     0.015
   ],
-  "PartBiologicalNFixation": 0.15,
+  "PartBiologicalNFixation": 0.08,
   "PlantDensity": 600,
   "RootDistributionParam": 0.00278700003400445,
   "RootFormFactor": 5,

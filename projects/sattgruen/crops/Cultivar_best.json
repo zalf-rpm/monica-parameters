@@ -1,0 +1,212 @@
+{
+  "AssimilatePartitioningCoeff": [
+    [
+      0.5759,
+      0.1089,
+      0.1603,
+      0.1548
+    ],
+    [
+      0.2626,
+      0.2840,
+      0.3352,
+      0.1182
+    ],
+    [
+      0.1377,
+      0.2456,
+      0.4972,
+      0.1194
+    ],
+    [
+      0.1563,
+      0.1872,
+      0.2616,
+      0.3949
+    ],
+    [
+      0.0565,
+      0.2261,
+      0.3343,
+      0.3831
+    ],
+    [
+      0.0557,
+      0.2328,
+      0.2372,
+      0.4743
+    ]
+  ],
+  "BaseDaylength": [
+    [
+      0,
+      0,
+      7,
+      7,
+      0,
+      0
+    ],
+    "h"
+  ],
+  "BeginSensitivePhaseHeatStress": [
+    0,
+    "\u00c2\u00b0C d"
+  ],
+  "CriticalTemperatureHeatStress": [
+    31,
+    "\u00c2\u00b0C"
+  ],
+  "CropHeightP1": 9,
+  "CropHeightP2": 0.3499999940395355,
+  "CropSpecificMaxRootingDepth": 0.30000001192092896,
+  "CultivarName": "",
+  "DaylengthRequirement": [
+    [
+      0,
+      20,
+      11.13118,
+      7.557760000000001,
+      9.90615,
+      0
+    ],
+    "h"
+  ],
+  "Description": "",
+  "DroughtStressThreshold": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "EndSensitivePhaseHeatStress": [
+    0,
+    "\u00c2\u00b0C d"
+  ],
+  "FrostDehardening": 0,
+  "FrostHardening": 0,
+  "HeatSumIrrigationEnd": 1000,
+  "HeatSumIrrigationStart": 450,
+  "LT50cultivar": 0,
+  "LatestHarvestDoy": -1,
+  "LowTemperatureExposure": 0,
+  "MaxAssimilationRate": 18.00,
+  "MaxCropHeight": [
+    0.20000000298023224,
+    "m"
+  ],
+  "OptimumTemperature": [
+    [
+      30,
+      30,
+      30,
+      30,
+      30,
+      30
+    ],
+    "\u00c2\u00b0C"
+  ],
+  "OrganIdsForCutting": [
+    {
+      "organId": 2,
+      "type": "YieldComponent",
+      "yieldDryMatter": 0.30000001192092896,
+      "yieldPercentage": 0.85
+    },
+    {
+      "organId": 3,
+      "type": "YieldComponent",
+      "yieldDryMatter": 0.30000001192092896,
+      "yieldPercentage": 0.85
+    }
+  ],
+  "OrganIdsForPrimaryYield": [],
+  "OrganIdsForSecondaryYield": [],
+  "OrganSenescenceRate": [
+    [
+      0.0,
+      0,
+      0,
+      0
+    ],
+    [
+      0.04194,
+      0.00782,
+      0.0189,
+      0.00567
+      
+    ],
+    [
+      0.01327,
+      0.02318,
+      0.02208,
+      0.01771      
+    ],
+    [
+      0.05316,
+      0.01753,
+      0.01571,
+      0.01779
+      
+    ],
+    [
+      0.04564,
+      0.02444,
+      0.00907,
+      0.01635      
+    ],
+    [
+      0.05258,
+      0.03747,
+      0.06046,
+      0.02439
+      
+    ]
+  ],
+  "Perennial": true,
+  "ResidueNRatio": 1,
+  "RespiratoryStress": 0,
+  "SpecificLeafArea": [
+    [
+      0.00572,
+      0.00178,
+      0.00225,
+      0.00255,
+      0.00326,
+      0.00599
+    ],
+    "ha kg-1"
+  ],
+  "StageKcFactor": [
+    [
+      0.61,
+      0.832,
+      0.85,
+      0.91,
+      0.90,
+      0.97
+    ],
+    "1;0"
+  ],
+  "StageTemperatureSum": [
+    [
+      52,
+      234.38,
+      234.767,
+      505.081,
+      396.22,
+      1000
+    ],
+    "\u00c2\u00b0C d"
+  ],
+  "VernalisationRequirement": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "type": "CultivarParameters"
+}

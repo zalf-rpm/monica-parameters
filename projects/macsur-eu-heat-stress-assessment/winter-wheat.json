@@ -9,6 +9,7 @@
 			"variables": "anthesis, maturity"
 		}
 	},
+	"WinterCrop": true,
 	"AssimilatePartitioningCoeff": [
 		[
 			0.5,

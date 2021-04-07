@@ -4,6 +4,7 @@
 		"parameter version": 1,
 		"model version": 2.1
 	},
+	"WinterCrop": true,
     "AssimilatePartitioningCoeff": [
 		[
 			0.5,

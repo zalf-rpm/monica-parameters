@@ -85,13 +85,13 @@
     540,
     "°C d"
   ],
-  "FrostDehardening":0,
-  "FrostHardening":0,
+  "FrostDehardening":5.05,
+  "FrostHardening":0.018,
   "HeatSumIrrigationEnd":1032,
   "HeatSumIrrigationStart":560,
-  "LT50cultivar":0,
+  "LT50cultivar":-15,
   "LatestHarvestDoy":-1,
-  "LowTemperatureExposure":0,
+  "LowTemperatureExposure":0.654,
   "MaxAssimilationRate":40,
   "MaxCropHeight":[  
     0.87000000476837158,
@@ -173,7 +173,7 @@
   ],
   "Perennial":false,
   "ResidueNRatio":0.30000001192092896,
-  "RespiratoryStress":0,
+  "RespiratoryStress":0.54,
   "SpecificLeafArea":[  
     [  
       0.002,

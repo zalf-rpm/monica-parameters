@@ -1,5 +1,6 @@
 {
     "Albedo": 0.23,
+    "rcp": "rcp85",
     "AtmosphericCO2": 0,
     "0 means MONICA will calculate CO2 automatically, else use this value for whole simulation, unless more exact data are available": "",
     "AtmosphericCO2s": {},

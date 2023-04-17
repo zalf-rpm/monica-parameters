@@ -5,36 +5,45 @@
     "Dry matter content of added organic matter"
   ],
   "AOM_FastDecCoeffStandard":[  
-    0.02500000037252903,
+    0.025,
     "d-1",
     "Decomposition rate coefficient of fast AOM at standard conditions"
   ],
   "AOM_NH4Content":[  
-    0,
+    0.0003,
     "kg N kg DM-1",
     "Ammonium content in added organic matter"
   ],
   "AOM_NO3Content":[  
-    0,
+    0.00001,
     "kg N kg DM-1",
     "Nitrate content in added organic matter"
   ],
   "AOM_SlowDecCoeffStandard":[  
-    0.004999999888241291,
+    0.0025,
     "d-1",
     "Decomposition rate coefficient of slow AOM at standard conditions"
   ],
   "CN_Ratio_AOM_Fast":[  
-    0,
+    25,
     "",
     "C to N ratio of the rapidly decomposing AOM pool"
   ],
   "CN_Ratio_AOM_Slow":[  
-    47.700000762939453,
+    40,
     "",
     "C to N ratio of the slowly decomposing AOM pool"
   ],
-  "NConcentration":0,
+  "NConcentration": [
+    0.005,
+    "kg N kg DM-1",
+    "Nitrogen content in added organic matter"
+  ],
+  "CorgContent": [
+    0.42,
+    "kg C kg DM-1",
+    "Carbon content in added organic matter"
+  ],
   "PartAOM_Slow_to_SMB_Fast":[  
     0.5,
     "kg kg-1",
@@ -46,12 +55,12 @@
     "Part of AOM slow consumed by slow soil microbial biomass"
   ],
   "PartAOM_to_AOM_Fast":[  
-    0.62000000476837158,
+    0.38,
     "kg kg-1",
     "Part of AOM that is assigned to the rapidly decomposing pool"
   ],
   "PartAOM_to_AOM_Slow":[  
-    0.37999999523162842,
+    0.62,
     "kg kg-1",
     "Part of AOM that is assigned to the slowly decomposing pool"
   ],

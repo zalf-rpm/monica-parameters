@@ -1,4 +1,16 @@
 {
+    "QTenFactor": [
+        2.95,
+    	  ""
+    ],
+    "TempDecOptimal": [
+        38.2,
+        "C"
+    ],
+    "MoistureDecOptimal": [
+        0.45,
+        "%"
+    ],
     "AOM_FastMaxC_to_N": [
         1000,
         ""

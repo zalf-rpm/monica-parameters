@@ -25,7 +25,7 @@
     "Decomposition rate coefficient of slow AOM at standard conditions"
   ],
   "CN_Ratio_AOM_Fast":[  
-    0,
+    20,
     "",
     "C to N ratio of the rapidly decomposing AOM pool"
   ],
@@ -34,7 +34,16 @@
     "",
     "C to N ratio of the slowly decomposing AOM pool"
   ],
-  "NConcentration":0,
+    "NConcentration": [
+    0.005,
+    "kg N kg DM-1",
+    "Nitrogen content in added organic matter"
+  ],
+  "CorgContent": [
+    0.46,
+    "kg C kg DM-1",
+    "Carbon content in added organic matter"
+  ],
   "PartAOM_Slow_to_SMB_Fast":[  
     0.5,
     "kg kg-1",

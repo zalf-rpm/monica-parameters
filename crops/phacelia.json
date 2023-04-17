@@ -41,7 +41,7 @@
   "MaxCropDiameter":0.0060000000521540642,
   "MaxNUptakeParam":3.1449999809265137,
   "MinimumNConcentration":0.004999999888241291,
-  "MinimumTemperatureForAssimilation":7,
+  "MinimumTemperatureForAssimilation":5,
   "MinimumTemperatureRootGrowth":0,
   "NConcentrationAbovegroundBiomass":0.059999998658895493,
   "NConcentrationB0":2.5,

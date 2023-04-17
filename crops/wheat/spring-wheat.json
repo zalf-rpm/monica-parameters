@@ -7,34 +7,34 @@
       0
     ],
     [  
-      0.20000000000000001,
-      0.20000000000000001,
-      0.59999999999999998,
+      0.3,
+      0.2,
+      0.5,
       0
     ],
     [  
-      0.13,
-      0.20000000000000001,
-      0.67000000000000004,
-      0
+      0.2,
+      0.2,
+      0.5,
+      0.1
+    ],
+    [  
+      0.1,
+      0.1,
+      0.1,
+      0.7
+    ],
+    [  
+      0.1,
+      0,
+      0.1,
+      0.8
     ],
     [  
       0,
       0,
-      0.029999999999999999,
-      0.96999999999999997
-    ],
-    [  
-      0,
-      0,
-      0,
-      1
-    ],
-    [  
-      0,
-      0,
-      0,
-      0.80000000000000004
+      0.1,
+      0.9
     ]
   ],
   "BaseDaylength":[  
@@ -58,7 +58,7 @@
   ],
   "CropHeightP1":6,
   "CropHeightP2":0.5,
-  "CropSpecificMaxRootingDepth":1.2999999523162842,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"spring wheat",
   "DaylengthRequirement":[  
     [  
@@ -91,7 +91,7 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":52,
+  "MaxAssimilationRate":22,
   "MaxCropHeight":[  
     0.82999998331069946,
     "m"
@@ -114,23 +114,11 @@
     {  
       "organId":4,
       "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
+      "yieldDryMatter":0.85,
+      "yieldPercentage":0.88
     }
   ],
   "OrganIdsForSecondaryYield":[  
-    {  
-      "organId":2,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
-    },
-    {  
-      "organId":3,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.90000000000000002
-    }
   ],
   "OrganSenescenceRate":[  
     [  
@@ -159,13 +147,13 @@
     ],
     [  
       0,
-      0.050000000000000003,
+      0,
       0,
       0
     ],
     [  
       0,
-      0.050000000000000003,
+      0,
       0,
       0
     ]

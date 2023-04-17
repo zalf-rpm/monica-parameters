@@ -2,46 +2,46 @@
   "CultivarName":"silage maize",
   "AssimilatePartitioningCoeff":[  
     [  
-      0.65,
-      0.35,
-      0,
-      0
-    ],
-    [  
       0.6,
-      0.2,
-      0.2,
+      0.4,
+      0,
       0
     ],
     [  
+      0.5,
       0.2,
-      0.2,
-      0.6,
+      0.3,
       0
     ],
     [  
-      0.05,
-      0.05,
-      0.65,
-      0.25
+      0.4,
+      0.3,
+      0.2,
+      0.1
+    ],
+    [  
+      0.2,
+      0.3,
+      0.4,
+      0.1
+    ],
+    [  
+      0.1,
+      0.2,
+      0.3,
+      0.4
+    ],
+    [  
+      0.1,
+      0.1,
+      0.1,
+      0.7
     ],
     [  
       0,
-      0,
-      0,
-      1
-    ],
-    [  
-      0,
-      0,
-      0,
-      1
-    ],
-    [  
-      0,
-      0,
-      0,
-      1
+      0.1,
+      0.1,
+      0.8
     ]
   ],
   "BaseDaylength":[  
@@ -100,9 +100,9 @@
   "LT50cultivar":-1,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0.654,
-  "MaxAssimilationRate":60,
+  "MaxAssimilationRate":64,
   "MaxCropHeight":[  
-    2,
+    2.5,
     "m"
   ],
   "OptimumTemperature":[  
@@ -120,24 +120,24 @@
   "OrganIdsForCutting":[  
 
   ],
-  "OrganIdsForPrimaryYield":[  
+  "OrganIdsForPrimaryYield":[
     {  
       "organId":2,
       "type":"YieldComponent",
       "yieldDryMatter":0.32,
-      "yieldPercentage":0.9
-    },
-    {  
-      "organId":3,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.32,
-      "yieldPercentage":0.9
-    },
-    {  
-      "organId":4,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.32,
       "yieldPercentage":1
+    },
+    {
+      "organId": 3,
+      "type": "YieldComponent",
+      "yieldDryMatter": 0.32,
+      "yieldPercentage": 1
+    },
+    {
+      "organId": 4,
+      "type": "YieldComponent",
+      "yieldDryMatter": 0.85,
+      "yieldPercentage": 1
     }
   ],
   "OrganIdsForSecondaryYield":[  
@@ -163,33 +163,33 @@
       0
     ],
     [  
-      0.005,
-      0.001,
+      0,
+      0,
       0,
       0
     ],
     [  
-      0.1,
-      0.003,
+      0,
+      0,
       0,
       0
     ],
     [  
-      0.1,
-      0.005,
-      0.013,
+      0,
+      0,
+      0,
       0
     ],
     [  
       0,
-      0.02,
-      0.02,
+      0,
+      0,
       0
     ]
   ],
   "Perennial":false,
   "ResidueNRatio":0.5,
-  "RespiratoryStress":0.54,
+  "RespiratoryStress":0.5,
   "SpecificLeafArea":[  
     [  
       0.0025,
@@ -216,12 +216,12 @@
   ],
   "StageTemperatureSum":[  
     [  
-      68,
+      168,
       284,
       190,
       250,
       200,
-      400,
+      800,
       25
     ],
     "°C d"

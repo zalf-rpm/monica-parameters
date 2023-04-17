@@ -3,7 +3,7 @@
     false,
     true,
     true,
-    false
+    true
   ],
   "AssimilateReallocation":0.30000001192092896,
   "BaseTemperature":[  
@@ -41,8 +41,8 @@
   "MaxCropDiameter":0.0030000000260770321,
   "MaxNUptakeParam":3.1449999809265137,
   "MinimumNConcentration":0.004999999888241291,
-  "MinimumTemperatureForAssimilation":8,
-  "MinimumTemperatureRootGrowth":0,
+  "MinimumTemperatureForAssimilation":5,
+  "MinimumTemperatureRootGrowth":2,
   "NConcentrationAbovegroundBiomass":0.059999998658895493,
   "NConcentrationB0":0.0010000000474974513,
   "NConcentrationPN":2.5999999046325684,

@@ -25,16 +25,16 @@
       0.75
     ],
     [  
+      0.1,
       0,
-      0,
-      0,
-      1
+      0.1,
+      0.8
     ],
     [  
       0,
       0,
-      0,
-      0
+      0.1,
+      0.9
     ]
   ],
   "BaseDaylength":[  
@@ -58,7 +58,7 @@
   ],
   "CropHeightP1":12,
   "CropHeightP2":0.55000001192092896,
-  "CropSpecificMaxRootingDepth":1.3999999761581421,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"spring rye",
   "DaylengthRequirement":[  
     [  
@@ -91,9 +91,9 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":38,
+  "MaxAssimilationRate":22,
   "MaxCropHeight":[  
-    1.2999999523162842,
+    1,
     "m"
   ],
   "OptimumTemperature":[  
@@ -119,18 +119,6 @@
     }
   ],
   "OrganIdsForSecondaryYield":[  
-    {  
-      "organId":2,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
-    },
-    {  
-      "organId":3,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.90000000000000002
-    }
   ],
   "OrganSenescenceRate":[  
     [  
@@ -159,13 +147,13 @@
     ],
     [  
       0,
-      0.029999999999999999,
+      0,
       0,
       0
     ],
     [  
       0,
-      0.029999999999999999,
+      0,
       0,
       0
     ]

@@ -58,7 +58,7 @@
   ],
   "CropHeightP1":12,
   "CropHeightP2":0.55000001192092896,
-  "CropSpecificMaxRootingDepth":1.3999999761581421,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"spring triticale",
   "DaylengthRequirement":[  
     [  
@@ -91,9 +91,9 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":45,
+  "MaxAssimilationRate":20,
   "MaxCropHeight":[  
-    0.89999997615814209,
+    1.2,
     "m"
   ],
   "OptimumTemperature":[  
@@ -119,18 +119,6 @@
     }
   ],
   "OrganIdsForSecondaryYield":[  
-    {  
-      "organId":2,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
-    },
-    {  
-      "organId":3,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
-    }
   ],
   "OrganSenescenceRate":[  
     [  
@@ -159,13 +147,13 @@
     ],
     [  
       0,
-      0.040000000000000001,
+      0,
       0,
       0
     ],
     [  
       0,
-      0.040000000000000001,
+      0,
       0,
       0
     ]

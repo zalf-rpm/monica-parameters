@@ -58,7 +58,7 @@
   ],
   "CropHeightP1":3.7400000095367432,
   "CropHeightP2":0.55000001192092896,
-  "CropSpecificMaxRootingDepth":1.3999999761581421,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"",
   "DaylengthRequirement":[  
     [  
@@ -93,7 +93,7 @@
   "LowTemperatureExposure":0,
   "MaxAssimilationRate":38.319999694824219,
   "MaxCropHeight":[  
-    1,
+    1.5,
     "m"
   ],
   "OptimumTemperature":[  
@@ -119,18 +119,7 @@
     }
   ],
   "OrganIdsForSecondaryYield":[  
-    {  
-      "organId":2,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
-    },
-    {  
-      "organId":3,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.90000000000000002
-    }
+
   ],
   "OrganSenescenceRate":[  
     [  

@@ -58,7 +58,7 @@
   ],
   "CropHeightP1":9,
   "CropHeightP2":0.34999999403953552,
-  "CropSpecificMaxRootingDepth":1.6000000238418579,
+  "CropSpecificMaxRootingDepth":0.8,
   "CultivarName":"",
   "DaylengthRequirement":[  
     [  

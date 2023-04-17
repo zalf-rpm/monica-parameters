@@ -41,8 +41,8 @@
     [  
       0,
       0,
-      7,
-      7,
+      0,
+      0,
       0,
       0
     ],
@@ -58,14 +58,14 @@
   ],
   "CropHeightP1":9,
   "CropHeightP2":0.34999999403953552,
-  "CropSpecificMaxRootingDepth":1.2000000476837158,
+  "CropSpecificMaxRootingDepth":0.8,
   "CultivarName":"",
   "DaylengthRequirement":[  
     [  
       0,
-      20,
-      20,
-      20,
+      0,
+      0,
+      0,
       0,
       0
     ],
@@ -91,9 +91,9 @@
   "LT50cultivar":0,
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0,
-  "MaxAssimilationRate":45,
+  "MaxAssimilationRate":20,
   "MaxCropHeight":[  
-    0.5,
+    0.7,
     "m"
   ],
   "OptimumTemperature":[  
@@ -108,10 +108,44 @@
     "°C"
   ],
   "OrganIdsForCutting":[  
-
+    {  
+      "organId":2,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.30000001192092896,
+      "yieldPercentage":0.84999999999999998
+    },
+    {  
+      "organId":3,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.30000001192092896,
+      "yieldPercentage":0.84999999999999998
+    },
+    {  
+      "organId":4,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.30000001192092896,
+      "yieldPercentage":0.84999999999999998
+    }
   ],
   "OrganIdsForPrimaryYield":[  
-
+    {  
+      "organId":2,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.30000001192092896,
+      "yieldPercentage":0.84999999999999998
+    },
+    {  
+      "organId":3,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.30000001192092896,
+      "yieldPercentage":0.84999999999999998
+    },
+    {  
+      "organId":4,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.30000001192092896,
+      "yieldPercentage":0.84999999999999998
+    }
   ],
   "OrganIdsForSecondaryYield":[  
 
@@ -182,7 +216,7 @@
   "StageTemperatureSum":[  
     [  
       40,
-      284,
+      184,
       200,
       400,
       350,
@@ -191,8 +225,8 @@
     "°C d"
   ],
   "VernalisationRequirement":[  
-    35,
-    35,
+    0,
+    0,
     0,
     0,
     0,

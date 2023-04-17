@@ -8,33 +8,33 @@
     ],
     [  
       0.20000000000000001,
-      0.5,
+      0.4,
       0.29999999999999999,
-      0
+      0.1
     ],
     [  
-      0,
-      0.40000000000000002,
-      0.59999999999999998,
-      0
+      0.2,
+      0.3,
+      0.3,
+      0.2
     ],
     [  
-      0,
-      0.5,
-      0.5,
-      0
+      0.1,
+      0.3,
+      0.3,
+      0.3
     ],
     [  
-      0,
-      0.5,
-      0.5,
-      0
+      0.1,
+      0.2,
+      0.3,
+      0.4
     ],
     [  
-      0,
-      0,
-      0,
-      0
+      0.1,
+      0.1,
+      0.2,
+      0.6
     ]
   ],
   "BaseDaylength":[  
@@ -49,7 +49,7 @@
     "h"
   ],
   "BeginSensitivePhaseHeatStress":[  
-    0,
+    420,
     "°C d"
   ],
   "CriticalTemperatureHeatStress":[  
@@ -58,14 +58,14 @@
   ],
   "CropHeightP1":9.0979995727539063,
   "CropHeightP2":0.1940000057220459,
-  "CropSpecificMaxRootingDepth":0.30000001192092896,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"",
   "DaylengthRequirement":[  
     [  
       0,
-      0,
-      0,
-      0,
+      20,
+      20,
+      20,
       0,
       0
     ],
@@ -81,17 +81,17 @@
     1
   ],
   "EndSensitivePhaseHeatStress":[  
-    0,
+    540,
     "°C d"
   ],
   "FrostDehardening":0,
   "FrostHardening":0,
   "HeatSumIrrigationEnd":1000,
   "HeatSumIrrigationStart":450,
-  "LT50cultivar":0,
+  "LT50cultivar":-18,
   "LatestHarvestDoy":-1,
-  "LowTemperatureExposure":0,
-  "MaxAssimilationRate":15.300000190734863,
+  "LowTemperatureExposure":0.65,
+  "MaxAssimilationRate":8,
   "MaxCropHeight":[  
     0.69999998807907104,
     "m"
@@ -119,10 +119,33 @@
       "type":"YieldComponent",
       "yieldDryMatter":0.18000000715255737,
       "yieldPercentage":0.84999999999999998
+    },
+    {  
+      "organId":4,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.85000000715255737,
+      "yieldPercentage":0.84999999999999998
     }
   ],
   "OrganIdsForPrimaryYield":[  
-
+    {  
+      "organId":2,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.18000000715255737,
+      "yieldPercentage":0.8
+    },
+    {  
+      "organId":3,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.18000000715255737,
+      "yieldPercentage":0.8
+    },
+    {  
+      "organId":4,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.85000000715255737,
+      "yieldPercentage":0.8
+    }
   ],
   "OrganIdsForSecondaryYield":[  
 
@@ -154,13 +177,13 @@
     ],
     [  
       0,
-      0.029999999999999999,
+      0,
       0,
       0
     ],
     [  
       0,
-      0.029999999999999999,
+      0,
       0,
       0
     ]
@@ -192,8 +215,8 @@
   ],
   "StageTemperatureSum":[  
     [  
-      10,
-      281.5,
+      100,
+      280,
       340,
       400,
       350,

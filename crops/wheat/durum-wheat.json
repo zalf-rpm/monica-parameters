@@ -58,7 +58,7 @@
   ],
   "CropHeightP1":6,
   "CropHeightP2":0.5,
-  "CropSpecificMaxRootingDepth":1.2999999523162842,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"durum wheat",
   "DaylengthRequirement":[  
     [  

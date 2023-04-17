@@ -1,11 +1,10 @@
 {
-	"CultivarName": "winter rape",
+	"CultivarName": "winter-rape",
 	"metadata": {
 		"description": "Calibrated for MACSUR crop rotation exercise for Czech Republic",
 		"parameter version": 1,
 		"model version": 2.1
 	},
-	"WinterCrop": true,
     "AssimilatePartitioningCoeff": [
 		[
 			0.5,
@@ -26,22 +25,22 @@
 			0
 		],
 		[
-			0,
+			0.1,
+			0.1,
+			0.2,
+			0.6
+		],
+		[
 			0,
 			0.1,
-			0.9
+			0.2,
+			0.7
 		],
 		[
 			0,
-			0,
-			0,
-			0
-		],
-		[
-			0,
-			0,
-			0,
-			0
+			0.1,
+			0.1,
+			0.8
 		]
 	],
 	"BaseDaylength": [
@@ -65,7 +64,7 @@
 	],
 	"CropHeightP1": 9,
 	"CropHeightP2": 0.35,
-	"CropSpecificMaxRootingDepth": 1.5,
+	"CropSpecificMaxRootingDepth": 1.2,
 	
 	"DaylengthRequirement": [
 		[
@@ -83,23 +82,23 @@
 		0.8,
 		0.8,
 		0.8,
-		0.8,
-		0.8,
-		0.8
+		0.7,
+		0.6,
+		0.5
 	],
 	"EndSensitivePhaseHeatStress": [
 		0,
 		"°C d"
 	],
-	"FrostDehardening": 5.05,
-	"FrostHardening": 0.014,
+	"FrostDehardening": 0,
+	"FrostHardening": 0,
 	"HeatSumIrrigationEnd": 1000,
 	"HeatSumIrrigationStart": 450,
 	"LT50cultivar": -18,
 	"LatestHarvestDoy": -1,
 	"LowTemperatureExposure": 0.654,
-	"MaxAssimilationRate": 28,
-	"MaxCropHeight": [0.8, "m"],
+	"MaxAssimilationRate": 16,
+	"MaxCropHeight": [1.5, "m"],
 	"OptimumTemperature": [
 		[
 			30,
@@ -117,22 +116,10 @@
 			"organId": 4,
 			"type": "YieldComponent",
 			"yieldDryMatter": 0.91,
-			"yieldPercentage": 0.55
+			"yieldPercentage": 0.75
 		}
 	],
 	"OrganIdsForSecondaryYield": [
-		{
-			"organId": 2,
-			"type": "YieldComponent",
-			"yieldDryMatter": 0.35,
-			"yieldPercentage": 0.85
-		},
-		{
-			"organId": 3,
-			"type": "YieldComponent",
-			"yieldDryMatter": 0.35,
-			"yieldPercentage": 0.85
-		}
 	],
 	"OrganSenescenceRate": [
 		[
@@ -155,19 +142,19 @@
 		],
 		[
 			0,
-			0.01,
+			0,
 			0,
 			0
 		],
 		[
 			0,
-			0.01,
+			0,
 			0,
 			0
 		],
 		[
 			0,
-			0.01,
+			0,
 			0,
 			0
 		]
@@ -210,7 +197,7 @@
 	],
 	"VernalisationRequirement": [
 		0,
-		50,
+		0,
 		0,
 		0,
 		0,

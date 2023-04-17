@@ -24,7 +24,7 @@
     0.80000000000000004
   ],
   "CuttingDelayDays":0,
-  "DefaultRadiationUseEfficiency":0.5,
+  "DefaultRadiationUseEfficiency":0.2,
   "DevelopmentAccelerationByNitrogenStress":0,
   "DroughtImpactOnFertilityFactor":0,
   "FieldConditionModifier":1,
@@ -66,7 +66,7 @@
   "RootGrowthLag":-30,
   "RootPenetrationRate":0.000699999975040555,
   "SamplingDepth":0.60000002384185791,
-  "SpeciesName":"field pea",
+  "SpeciesName":"field-pea",
   "SpecificRootLength":300,
   "StageAfterCut":0,
   "StageAtMaxDiameter":4,

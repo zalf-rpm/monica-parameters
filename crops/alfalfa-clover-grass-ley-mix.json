@@ -26,7 +26,7 @@
   "CuttingDelayDays":10,
   "DefaultRadiationUseEfficiency":0.5,
   "DevelopmentAccelerationByNitrogenStress":0,
-  "DroughtImpactOnFertilityFactor":0,
+  "DroughtImpactOnFertilityFactor":1,
   "FieldConditionModifier":1,
   "InitialKcFactor":0.40000000596046448,
   "InitialOrganBiomass":[  
@@ -36,13 +36,13 @@
     0
   ],
   "InitialRootingDepth":0.10000000149011612,
-  "LimitingTemperatureHeatStress":40,
+  "LimitingTemperatureHeatStress":30,
   "LuxuryNCoeff":1,
   "MaxCropDiameter":0.0030000000260770321,
   "MaxNUptakeParam":3.1449999809265137,
   "MinimumNConcentration":0.004999999888241291,
-  "MinimumTemperatureForAssimilation":8,
-  "MinimumTemperatureRootGrowth":0,
+  "MinimumTemperatureForAssimilation":5,
+  "MinimumTemperatureRootGrowth":3,
   "NConcentrationAbovegroundBiomass":0.059999998658895493,
   "NConcentrationB0":0,
   "NConcentrationPN":2.5250000953674316,
@@ -81,8 +81,8 @@
   ],
   "StorageOrgan":[  
     false,
-    false,
-    false,
+    true,
+    true,
     true
   ],
   "TargetN30":20,

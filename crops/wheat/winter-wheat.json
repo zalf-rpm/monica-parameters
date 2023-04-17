@@ -1,6 +1,5 @@
 {
   "CultivarName":"winter wheat",  
-  "WinterCrop": true,
   "AssimilatePartitioningCoeff":[  
     [  
       0.5,
@@ -11,32 +10,32 @@
     [  
       0.2,
       0.2,
-      0.6,
-      0
+      0.3,
+      0.3
     ],
     [  
-      0.13,
       0.2,
-      0.67,
-      0
+      0.1,
+      0.3,
+      0.4
     ],
     [  
-      0,
-      0,
-      0.03,
-      0.97
+      0.1,
+      0.1,
+      0.2,
+      0.6
     ],
     [  
-      0,
-      0,
-      0,
-      1
+      0.1,
+      0.1,
+      0.1,
+      0.7
     ],
     [  
-      0,
-      0,
-      0,
-      0
+      0.1,
+      0.1,
+      0.1,
+      0.7
     ]
   ],
   "BaseDaylength":[  
@@ -51,7 +50,7 @@
     "h"
   ],
   "BeginSensitivePhaseHeatStress":[  
-    620,
+    780,
     "°C d"
   ],
   "CriticalTemperatureHeatStress":[  
@@ -60,7 +59,7 @@
   ],
   "CropHeightP1":6,
   "CropHeightP2":0.5,
-  "CropSpecificMaxRootingDepth":1.3,
+  "CropSpecificMaxRootingDepth":1,
   "DaylengthRequirement":[  
     [  
       0,
@@ -75,24 +74,24 @@
   "Description":"",
   "DroughtStressThreshold":[  
     1,
-    0.9,
+    0.90000000000000002,
     1,
     1,
-    0.9,
-    0.8
+    0.90000000000000002,
+    0.80000000000000004
   ],
   "EndSensitivePhaseHeatStress":[  
-    740,
+    900,
     "°C d"
   ],
-  "FrostDehardening":5.05,
-  "FrostHardening":0.014,
+  "FrostDehardening":0,
+  "FrostHardening":0,
   "HeatSumIrrigationEnd":1676,
   "HeatSumIrrigationStart":461,
   "LT50cultivar":-24,
   "LatestHarvestDoy":-1,
-  "LowTemperatureExposure":0.654,
-  "MaxAssimilationRate":30,
+  "LowTemperatureExposure":0,
+  "MaxAssimilationRate":25,
   "MaxCropHeight":[  
     0.83,
     "m"
@@ -113,23 +112,11 @@
     {  
       "organId":4,
       "type":"YieldComponent",
-      "yieldDryMatter":0.86,
+      "yieldDryMatter":1,
       "yieldPercentage":0.85
     }
   ],
   "OrganIdsForSecondaryYield":[  
-    {  
-      "organId":2,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.86,
-      "yieldPercentage":0.85
-    },
-    {  
-      "organId":3,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.86,
-      "yieldPercentage":0.9
-    }
   ],
   "OrganSenescenceRate":[  
     [  
@@ -158,20 +145,20 @@
     ],
     [  
       0,
-      0.05,
+      0,
       0,
       0
     ],
     [  
       0,
-      0.05,
+      0,
       0,
       0
     ]
   ],
   "Perennial":false,
   "ResidueNRatio":0.5,
-  "RespiratoryStress":0.54,
+  "RespiratoryStress":0,
   "SpecificLeafArea":[  
     [  
       0.002,
@@ -185,29 +172,29 @@
   ],
   "StageKcFactor":[  
     [  
-      0.4,
-      0.7,
-      1.1,
-      1.1,
-      0.8,
+      0.59999999999999998,
+      0.69999999999999996,
+      1.1000000000000001,
+      1.1000000000000001,
+      0.80000000000000004,
       0.25
     ],
     "1;0"
   ],
   "StageTemperatureSum":[  
     [  
-      148,
+      184,
       284,
       380,
       180,
       420,
-      25
+      125
     ],
     "°C d"
   ],
   "VernalisationRequirement":[  
     0,
-    50,
+    0,
     0,
     0,
     0,

@@ -1,41 +1,40 @@
 {  
-  "WinterCrop": true,
   "AssimilatePartitioningCoeff":[  
     [  
       0.5,
-      0.5,
-      0,
+      0.4,
+      0.1,
       0
     ],
     [  
-      0.29999999999999999,
-      0.20000000000000001,
-      0.5,
-      0
+      0.4,
+      0.2,
+      0.3,
+      0.1
     ],
     [  
-      0.10000000000000001,
-      0.20000000000000001,
-      0.40000000000000002,
-      0.29999999999999999
+      0.2,
+      0.2,
+      0.3,
+      0.3
     ],
     [  
-      0,
-      0,
-      0,
-      1
+      0.1,
+      0.2,
+      0.3,
+      0.4
     ],
     [  
-      0,
-      0,
-      0,
-      1
+      0.1,
+      0.1,
+      0.1,
+      0.7
     ],
     [  
-      0,
-      0,
-      0,
-      0
+      0.1,
+      0.1,
+      0.1,
+      0.7
     ]
   ],
   "BaseDaylength":[  
@@ -54,21 +53,21 @@
     "°C d"
   ],
   "CriticalTemperatureHeatStress":[  
-    31,
+    32,
     "°C"
   ],
   "CropHeightP1":12,
   "CropHeightP2":0.60000002384185791,
-  "CropSpecificMaxRootingDepth":1.2999999523162842,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"winter barley",
   "DaylengthRequirement":[  
     [  
-      0,
-      20,
-      20,
-      20,
-      0,
-      0
+      10,
+      12,
+      14,
+      15,
+      15,
+      14
     ],
     "h"
   ],
@@ -85,26 +84,26 @@
     540,
     "°C d"
   ],
-  "FrostDehardening":5.05,
-  "FrostHardening":0.018,
+  "FrostDehardening":0,
+  "FrostHardening":0,
   "HeatSumIrrigationEnd":1032,
   "HeatSumIrrigationStart":560,
-  "LT50cultivar":-15,
+  "LT50cultivar":-20,
   "LatestHarvestDoy":-1,
-  "LowTemperatureExposure":0.654,
-  "MaxAssimilationRate":40,
+  "LowTemperatureExposure":0,
+  "MaxAssimilationRate":24,
   "MaxCropHeight":[  
-    0.87000000476837158,
+    0.87,
     "m"
   ],
   "OptimumTemperature":[  
     [  
-      30,
-      30,
-      30,
-      30,
-      30,
-      30
+      16,
+      18,
+      20,
+      23,
+      26,
+      25
     ],
     "°C"
   ],
@@ -116,22 +115,10 @@
       "organId":4,
       "type":"YieldComponent",
       "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
+      "yieldPercentage":1
     }
   ],
   "OrganIdsForSecondaryYield":[  
-    {  
-      "organId":2,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.84999999999999998
-    },
-    {  
-      "organId":3,
-      "type":"YieldComponent",
-      "yieldDryMatter":0.85999999999999999,
-      "yieldPercentage":0.90000000000000002
-    }
   ],
   "OrganSenescenceRate":[  
     [  
@@ -160,20 +147,20 @@
     ],
     [  
       0,
-      0.050000000000000003,
+      0,
       0,
       0
     ],
     [  
       0,
-      0.050000000000000003,
+      0,
       0,
       0
     ]
   ],
   "Perennial":false,
   "ResidueNRatio":0.30000001192092896,
-  "RespiratoryStress":0.54,
+  "RespiratoryStress":0,
   "SpecificLeafArea":[  
     [  
       0.002,
@@ -198,18 +185,18 @@
   ],
   "StageTemperatureSum":[  
     [  
-      108,
-      284,
-      300,
-      120,
+      88,
+      184,
+      380,
+      320,
       260,
-      25
+      125
     ],
     "°C d"
   ],
   "VernalisationRequirement":[  
     0,
-    33,
+    0,
     0,
     0,
     0,

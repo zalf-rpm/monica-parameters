@@ -58,7 +58,7 @@
   ],
   "CropHeightP1":9,
   "CropHeightP2":0,
-  "CropSpecificMaxRootingDepth":0.30000001192092896,
+  "CropSpecificMaxRootingDepth":1,
   "CultivarName":"",
   "DaylengthRequirement":[  
     [  
@@ -111,24 +111,29 @@
     {  
       "organId":2,
       "type":"YieldComponent",
-      "yieldDryMatter":0.30000001192092896,
+      "yieldDryMatter":0.30,
       "yieldPercentage":0.84999999999999998
     },
     {  
       "organId":3,
       "type":"YieldComponent",
-      "yieldDryMatter":0.30000001192092896,
+      "yieldDryMatter":0.30,
       "yieldPercentage":0.84999999999999998
     },
     {  
       "organId":4,
       "type":"YieldComponent",
-      "yieldDryMatter":0.30000001192092896,
+      "yieldDryMatter":0.85,
       "yieldPercentage":0.84999999999999998
     }
   ],
   "OrganIdsForPrimaryYield":[  
-
+    {  
+      "organId":4,
+      "type":"YieldComponent",
+      "yieldDryMatter":0.85,
+      "yieldPercentage":0.84999999999999998
+    }
   ],
   "OrganIdsForSecondaryYield":[  
 

@@ -25,8 +25,8 @@
     "Decomposition rate coefficient of slow AOM at standard conditions"
   ],
   "CN_Ratio_AOM_Fast":[  
-    22,
-    "",
+    0,
+    "22",
     "C to N ratio of the rapidly decomposing AOM pool"
   ],
   "CN_Ratio_AOM_Slow":[  

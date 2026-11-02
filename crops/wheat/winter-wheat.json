@@ -93,6 +93,7 @@
   "LatestHarvestDoy":-1,
   "LowTemperatureExposure":0.654,
   "MaxAssimilationRate":30,
+  "EmpiricalExtinctionCoeffDiffuse":0.60,
   "MaxCropHeight":[  
     0.83,
     "m"
